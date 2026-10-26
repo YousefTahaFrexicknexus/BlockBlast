@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabd33d5fa301e04e9e0bb433b3226a7, type: 3}
+  m_Name: JourneyShopCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MagicalWorlds.Journey.JourneyShopCatalog
+  palettes:
+  - id: original
+    displayName: Enchanted Garden
+    coinPrice: 0
+    emptyCellColor: {r: 0.17254902, g: 0.24313726, b: 0.47058824, a: 1}
+    trayColor: {r: 0.13333334, g: 0.2, b: 0.42745098, a: 1}
+    selectedTrayColor: {r: 0.20392157, g: 0.31764707, b: 0.6039216, a: 1}
+  - id: moonlight
+    displayName: Moonlight
+    coinPrice: 350
+    emptyCellColor: {r: 0.20784314, g: 0.37254903, b: 0.57254905, a: 1}
+    trayColor: {r: 0.14117648, g: 0.26666668, b: 0.42352942, a: 1}
+    selectedTrayColor: {r: 0.26666668, g: 0.4862745, b: 0.7607843, a: 1}
+  - id: rose
+    displayName: Rose Quartz
+    coinPrice: 600
+    emptyCellColor: {r: 0.4392157, g: 0.27450982, b: 0.47058824, a: 1}
+    trayColor: {r: 0.3764706, g: 0.23137255, b: 0.44705883, a: 1}
+    selectedTrayColor: {r: 0.6784314, g: 0.3882353, b: 0.6901961, a: 1}
+  - id: emerald
+    displayName: Emerald Glade
+    coinPrice: 850
+    emptyCellColor: {r: 0.1764706, g: 0.44313726, b: 0.41960785, a: 1}
+    trayColor: {r: 0.14117648, g: 0.32156864, b: 0.29803923, a: 1}
+    selectedTrayColor: {r: 0.23137255, g: 0.59607846, b: 0.5019608, a: 1}

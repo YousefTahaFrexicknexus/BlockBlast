@@ -1,0 +1,1147 @@
+{
+  "version": 1,
+  "referenceResolution": [
+    1080,
+    1920
+  ],
+  "units": "Pixels",
+  "spritePixelsPerUnit": 100,
+  "alpha": true,
+  "assets": [
+    {
+      "name": "Button_gold_normal",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_gold_normal.svg",
+      "sprite": "Button_gold_normal.png"
+    },
+    {
+      "name": "Button_gold_pressed",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_gold_pressed.svg",
+      "sprite": "Button_gold_pressed.png"
+    },
+    {
+      "name": "Button_gold_disabled",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_gold_disabled.svg",
+      "sprite": "Button_gold_disabled.png"
+    },
+    {
+      "name": "Button_gold_selected",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_gold_selected.svg",
+      "sprite": "Button_gold_selected.png"
+    },
+    {
+      "name": "Button_violet_normal",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_violet_normal.svg",
+      "sprite": "Button_violet_normal.png"
+    },
+    {
+      "name": "Button_violet_pressed",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_violet_pressed.svg",
+      "sprite": "Button_violet_pressed.png"
+    },
+    {
+      "name": "Button_violet_disabled",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_violet_disabled.svg",
+      "sprite": "Button_violet_disabled.png"
+    },
+    {
+      "name": "Button_violet_selected",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_violet_selected.svg",
+      "sprite": "Button_violet_selected.png"
+    },
+    {
+      "name": "Button_blue_normal",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_blue_normal.svg",
+      "sprite": "Button_blue_normal.png"
+    },
+    {
+      "name": "Button_blue_pressed",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_blue_pressed.svg",
+      "sprite": "Button_blue_pressed.png"
+    },
+    {
+      "name": "Button_blue_disabled",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_blue_disabled.svg",
+      "sprite": "Button_blue_disabled.png"
+    },
+    {
+      "name": "Button_blue_selected",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_blue_selected.svg",
+      "sprite": "Button_blue_selected.png"
+    },
+    {
+      "name": "Button_mint_normal",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_mint_normal.svg",
+      "sprite": "Button_mint_normal.png"
+    },
+    {
+      "name": "Button_mint_pressed",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_mint_pressed.svg",
+      "sprite": "Button_mint_pressed.png"
+    },
+    {
+      "name": "Button_mint_disabled",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_mint_disabled.svg",
+      "sprite": "Button_mint_disabled.png"
+    },
+    {
+      "name": "Button_mint_selected",
+      "width": 520,
+      "height": 128,
+      "border": [
+        62,
+        52,
+        62,
+        52
+      ],
+      "source": "Sources\\Components\\Button_mint_selected.svg",
+      "sprite": "Button_mint_selected.png"
+    },
+    {
+      "name": "Icon_coin",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_coin.svg",
+      "sprite": "Icon_coin.png"
+    },
+    {
+      "name": "Icon_gem",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_gem.svg",
+      "sprite": "Icon_gem.png"
+    },
+    {
+      "name": "Icon_energy",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_energy.svg",
+      "sprite": "Icon_energy.png"
+    },
+    {
+      "name": "Icon_star",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_star.svg",
+      "sprite": "Icon_star.png"
+    },
+    {
+      "name": "Icon_lock",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_lock.svg",
+      "sprite": "Icon_lock.png"
+    },
+    {
+      "name": "Icon_pause",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_pause.svg",
+      "sprite": "Icon_pause.png"
+    },
+    {
+      "name": "Icon_back",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_back.svg",
+      "sprite": "Icon_back.png"
+    },
+    {
+      "name": "Icon_next",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_next.svg",
+      "sprite": "Icon_next.png"
+    },
+    {
+      "name": "Icon_play",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_play.svg",
+      "sprite": "Icon_play.png"
+    },
+    {
+      "name": "Icon_close",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_close.svg",
+      "sprite": "Icon_close.png"
+    },
+    {
+      "name": "Icon_plus",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_plus.svg",
+      "sprite": "Icon_plus.png"
+    },
+    {
+      "name": "Icon_check",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_check.svg",
+      "sprite": "Icon_check.png"
+    },
+    {
+      "name": "Icon_book",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_book.svg",
+      "sprite": "Icon_book.png"
+    },
+    {
+      "name": "Icon_shop",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_shop.svg",
+      "sprite": "Icon_shop.png"
+    },
+    {
+      "name": "Icon_skins",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_skins.svg",
+      "sprite": "Icon_skins.png"
+    },
+    {
+      "name": "Icon_events",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_events.svg",
+      "sprite": "Icon_events.png"
+    },
+    {
+      "name": "Icon_settings",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_settings.svg",
+      "sprite": "Icon_settings.png"
+    },
+    {
+      "name": "Icon_sound",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_sound.svg",
+      "sprite": "Icon_sound.png"
+    },
+    {
+      "name": "Icon_music",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Icon_music.svg",
+      "sprite": "Icon_music.png"
+    },
+    {
+      "name": "Nav_Surface_normal",
+      "width": 210,
+      "height": 210,
+      "border": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "source": "Sources\\Components\\Nav_Surface_normal.svg",
+      "sprite": "Nav_Surface_normal.png"
+    },
+    {
+      "name": "Nav_Surface_pressed",
+      "width": 210,
+      "height": 210,
+      "border": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "source": "Sources\\Components\\Nav_Surface_pressed.svg",
+      "sprite": "Nav_Surface_pressed.png"
+    },
+    {
+      "name": "Nav_Surface_selected",
+      "width": 210,
+      "height": 210,
+      "border": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "source": "Sources\\Components\\Nav_Surface_selected.svg",
+      "sprite": "Nav_Surface_selected.png"
+    },
+    {
+      "name": "Nav_Surface_disabled",
+      "width": 210,
+      "height": 210,
+      "border": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "source": "Sources\\Components\\Nav_Surface_disabled.svg",
+      "sprite": "Nav_Surface_disabled.png"
+    },
+    {
+      "name": "Nav_Shop_IconLabel",
+      "width": 210,
+      "height": 210,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Nav_Shop_IconLabel.svg",
+      "sprite": "Nav_Shop_IconLabel.png"
+    },
+    {
+      "name": "Nav_Skins_IconLabel",
+      "width": 210,
+      "height": 210,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Nav_Skins_IconLabel.svg",
+      "sprite": "Nav_Skins_IconLabel.png"
+    },
+    {
+      "name": "Nav_Events_IconLabel",
+      "width": 210,
+      "height": 210,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Nav_Events_IconLabel.svg",
+      "sprite": "Nav_Events_IconLabel.png"
+    },
+    {
+      "name": "Nav_Settings_IconLabel",
+      "width": 210,
+      "height": 210,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Nav_Settings_IconLabel.svg",
+      "sprite": "Nav_Settings_IconLabel.png"
+    },
+    {
+      "name": "Currency_coin_Blank",
+      "width": 351,
+      "height": 120,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Currency_coin_Blank.svg",
+      "sprite": "Currency_coin_Blank.png"
+    },
+    {
+      "name": "Currency_gem_Blank",
+      "width": 284,
+      "height": 120,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Currency_gem_Blank.svg",
+      "sprite": "Currency_gem_Blank.png"
+    },
+    {
+      "name": "Currency_energy_Blank",
+      "width": 283,
+      "height": 120,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Currency_energy_Blank.svg",
+      "sprite": "Currency_energy_Blank.png"
+    },
+    {
+      "name": "Level_locked",
+      "width": 196,
+      "height": 206,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Level_locked.svg",
+      "sprite": "Level_locked.png"
+    },
+    {
+      "name": "Level_current",
+      "width": 196,
+      "height": 206,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Level_current.svg",
+      "sprite": "Level_current.png"
+    },
+    {
+      "name": "Level_completed",
+      "width": 196,
+      "height": 206,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Level_completed.svg",
+      "sprite": "Level_completed.png"
+    },
+    {
+      "name": "Level_unlocked",
+      "width": 196,
+      "height": 206,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Level_unlocked.svg",
+      "sprite": "Level_unlocked.png"
+    },
+    {
+      "name": "Panel_Modal",
+      "width": 880,
+      "height": 1130,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "Sources\\Components\\Panel_Modal.svg",
+      "sprite": "Panel_Modal.png"
+    },
+    {
+      "name": "Panel_Card",
+      "width": 820,
+      "height": 164,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "Sources\\Components\\Panel_Card.svg",
+      "sprite": "Panel_Card.png"
+    },
+    {
+      "name": "Panel_HUD",
+      "width": 450,
+      "height": 180,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "Sources\\Components\\Panel_HUD.svg",
+      "sprite": "Panel_HUD.png"
+    },
+    {
+      "name": "Panel_Board",
+      "width": 936,
+      "height": 936,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "Sources\\Components\\Panel_Board.svg",
+      "sprite": "Panel_Board.png"
+    },
+    {
+      "name": "Panel_Tray",
+      "width": 294,
+      "height": 220,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "Sources\\Components\\Panel_Tray.svg",
+      "sprite": "Panel_Tray.png"
+    },
+    {
+      "name": "Ornament_Crown",
+      "width": 820,
+      "height": 110,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Ornament_Crown.svg",
+      "sprite": "Ornament_Crown.png"
+    },
+    {
+      "name": "Ornament_Flower",
+      "width": 60,
+      "height": 60,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Ornament_Flower.svg",
+      "sprite": "Ornament_Flower.png"
+    },
+    {
+      "name": "Ornament_Leaf",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Ornament_Leaf.svg",
+      "sprite": "Ornament_Leaf.png"
+    },
+    {
+      "name": "Logo_MagicalWorlds",
+      "width": 708,
+      "height": 475,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Logo_MagicalWorlds.svg",
+      "sprite": "Logo_MagicalWorlds.png"
+    },
+    {
+      "name": "CTA_Play_Decoration",
+      "width": 726,
+      "height": 291,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Play_Decoration.svg",
+      "sprite": "CTA_Play_Decoration.png"
+    },
+    {
+      "name": "CTA_Journey_Decoration",
+      "width": 684,
+      "height": 189,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Journey_Decoration.svg",
+      "sprite": "CTA_Journey_Decoration.png"
+    },
+    {
+      "name": "CTA_Play_pressed",
+      "width": 726,
+      "height": 291,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Play_pressed.svg",
+      "sprite": "CTA_Play_pressed.png"
+    },
+    {
+      "name": "CTA_Journey_pressed",
+      "width": 684,
+      "height": 189,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Journey_pressed.svg",
+      "sprite": "CTA_Journey_pressed.png"
+    },
+    {
+      "name": "CTA_Play_disabled",
+      "width": 726,
+      "height": 291,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Play_disabled.svg",
+      "sprite": "CTA_Play_disabled.png"
+    },
+    {
+      "name": "CTA_Journey_disabled",
+      "width": 684,
+      "height": 189,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Journey_disabled.svg",
+      "sprite": "CTA_Journey_disabled.png"
+    },
+    {
+      "name": "CTA_Play_selected",
+      "width": 726,
+      "height": 291,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Play_selected.svg",
+      "sprite": "CTA_Play_selected.png"
+    },
+    {
+      "name": "CTA_Journey_selected",
+      "width": 684,
+      "height": 189,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\CTA_Journey_selected.svg",
+      "sprite": "CTA_Journey_selected.png"
+    },
+    {
+      "name": "Tile_Cyan",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Cyan.svg",
+      "sprite": "Tile_Cyan.png"
+    },
+    {
+      "name": "Tile_Mint",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Mint.svg",
+      "sprite": "Tile_Mint.png"
+    },
+    {
+      "name": "Tile_Gold",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Gold.svg",
+      "sprite": "Tile_Gold.png"
+    },
+    {
+      "name": "Tile_Lavender",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Lavender.svg",
+      "sprite": "Tile_Lavender.png"
+    },
+    {
+      "name": "Tile_Pink",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Pink.svg",
+      "sprite": "Tile_Pink.png"
+    },
+    {
+      "name": "Tile_Orange",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Orange.svg",
+      "sprite": "Tile_Orange.png"
+    },
+    {
+      "name": "Tile_Red",
+      "width": 104,
+      "height": 108,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Tile_Red.svg",
+      "sprite": "Tile_Red.png"
+    },
+    {
+      "name": "Cell_Empty",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Cell_Empty.svg",
+      "sprite": "Cell_Empty.png"
+    },
+    {
+      "name": "Cell_Valid",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Cell_Valid.svg",
+      "sprite": "Cell_Valid.png"
+    },
+    {
+      "name": "Cell_Invalid",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Cell_Invalid.svg",
+      "sprite": "Cell_Invalid.png"
+    },
+    {
+      "name": "Progress_Track",
+      "width": 700,
+      "height": 40,
+      "border": [
+        20,
+        15,
+        20,
+        15
+      ],
+      "source": "Sources\\Components\\Progress_Track.svg",
+      "sprite": "Progress_Track.png"
+    },
+    {
+      "name": "Progress_Fill",
+      "width": 700,
+      "height": 40,
+      "border": [
+        18,
+        12,
+        18,
+        12
+      ],
+      "source": "Sources\\Components\\Progress_Fill.svg",
+      "sprite": "Progress_Fill.png"
+    },
+    {
+      "name": "Star_Empty",
+      "width": 104,
+      "height": 104,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Star_Empty.svg",
+      "sprite": "Star_Empty.png"
+    },
+    {
+      "name": "Toggle_On",
+      "width": 160,
+      "height": 76,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Toggle_On.svg",
+      "sprite": "Toggle_On.png"
+    },
+    {
+      "name": "Toggle_Off",
+      "width": 160,
+      "height": 76,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Toggle_Off.svg",
+      "sprite": "Toggle_Off.png"
+    },
+    {
+      "name": "Badge_Equipped",
+      "width": 250,
+      "height": 74,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Badge_Equipped.svg",
+      "sprite": "Badge_Equipped.png"
+    },
+    {
+      "name": "Badge_NotEnough",
+      "width": 320,
+      "height": 74,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Sources\\Components\\Badge_NotEnough.svg",
+      "sprite": "Badge_NotEnough.png"
+    }
+  ],
+  "screens": [
+    {
+      "name": "01_Main_Menu",
+      "source": "Sources\\Screens\\01_Main_Menu.svg"
+    },
+    {
+      "name": "02_Journey_Map",
+      "source": "Sources\\Screens\\02_Journey_Map.svg"
+    },
+    {
+      "name": "03_Journey_HUD",
+      "source": "Sources\\Screens\\03_Journey_HUD.svg"
+    },
+    {
+      "name": "04_Classic_HUD",
+      "source": "Sources\\Screens\\04_Classic_HUD.svg"
+    },
+    {
+      "name": "05_Pause",
+      "source": "Sources\\Screens\\05_Pause.svg"
+    },
+    {
+      "name": "06_Win",
+      "source": "Sources\\Screens\\06_Win.svg"
+    },
+    {
+      "name": "07_Lose",
+      "source": "Sources\\Screens\\07_Lose.svg"
+    },
+    {
+      "name": "08_Shop",
+      "source": "Sources\\Screens\\08_Shop.svg"
+    },
+    {
+      "name": "09_Master_Kit",
+      "source": "Sources\\Screens\\09_Master_Kit.svg"
+    }
+  ],
+  "notes": [
+    "Borders ordered left,bottom,right,top in pixels.",
+    "Screen numbers and wallet values are editable sample data.",
+    "All SVG sources contain geometry and live text only; no raster images."
+  ]
+}

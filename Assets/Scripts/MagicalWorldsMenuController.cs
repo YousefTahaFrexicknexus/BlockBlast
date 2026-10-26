@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MagicalWorlds.Journey;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -30,14 +31,13 @@ public sealed class MagicalWorldsMenuController : MonoBehaviour
     [SerializeField] private Button gemsAddButton;
     [SerializeField] private Button energyAddButton;
 
-    [Header("Currency (placeholder values until Economy milestone)")]
+    [Header("Saved Currency Wallet")]
     [SerializeField] private Text coinsValue;
     [SerializeField] private Text gemsValue;
     [SerializeField] private Text energyValue;
-    [SerializeField] private int previewCoins = 1250;
-    [SerializeField] private int previewGems = 80;
-    [SerializeField] private int previewEnergy = 5;
-    [SerializeField] private int previewMaximumEnergy = 5;
+    [Header("Authored Cosmetic Shop")]
+    [SerializeField] private MagicalWorldsShopUI shopUI;
+    [SerializeField] private MagicalWorldsSkinsUI skinsUI;
 
     [Header("Shared Popup Prefab Instance")]
     [SerializeField] private GameObject popupRoot;
@@ -92,23 +92,20 @@ public sealed class MagicalWorldsMenuController : MonoBehaviour
         button.onClick.AddListener(action);
     }
 
-    private void RefreshDisplay()
+    private void OnEnable()
     {
-        if (coinsValue != null)
-        {
-            coinsValue.text = Mathf.Max(0, previewCoins).ToString("N0");
-        }
-        if (gemsValue != null)
-        {
-            gemsValue.text = Mathf.Max(0, previewGems).ToString("N0");
-        }
-        if (energyValue != null)
-        {
-            energyValue.text = Mathf.Clamp(previewEnergy, 0, Mathf.Max(1, previewMaximumEnergy)) +
-                "/" + Mathf.Max(1, previewMaximumEnergy);
-        }
+        RefreshDisplay();
     }
 
+    private void RefreshDisplay()
+    {
+        JourneyWalletView wallet = JourneyWallet.GetView();
+        if (coinsValue != null) coinsValue.text = wallet.Coins.ToString("N0");
+        if (gemsValue != null) gemsValue.text = wallet.Gems.ToString("N0");
+        if (energyValue != null)
+            energyValue.text = Mathf.Min(wallet.Energy, wallet.MaximumEnergy) +
+                "/" + wallet.MaximumEnergy;
+    }
     public void PlayClassic()
     {
         if (transitioning)
@@ -140,17 +137,30 @@ public sealed class MagicalWorldsMenuController : MonoBehaviour
 
     public void ShowShop()
     {
-        OpenPopup("SHOP", "The shop opens when the economy and purchases are implemented.", false);
+        if (shopUI != null)
+        {
+            ClosePopup();
+            shopUI.Show();
+            RefreshDisplay();
+            return;
+        }
+        RefreshDisplay();
+        JourneyWalletView wallet = JourneyWallet.GetView();
+        OpenPopup("SHOP", "COINS  " + wallet.Coins.ToString("N0") +
+            "     GEMS  " + wallet.Gems.ToString("N0") +
+            "\nEARN COINS BY COMPLETING JOURNEY LEVELS." +
+            "\nVISIT COLLECTIONS TO CHOOSE YOUR BOARD.", false);
     }
 
     public void ShowSkins()
     {
-        OpenPopup("SKINS", "Character and theme collections are planned for a later milestone.", false);
+        ClosePopup();
+        if (skinsUI != null) skinsUI.Show();
     }
 
     public void ShowEvents()
     {
-        OpenPopup("EVENTS", "Seasonal events and missions will be added later.", false);
+        OpenPopup("EVENTS", "No active events right now.\n\nExplore Journey to earn stars, coins, and new looks.", false);
     }
 
     public void ShowSettings()
@@ -183,6 +193,9 @@ public sealed class MagicalWorldsMenuController : MonoBehaviour
 
     public void ClosePopup()
     {
+        if (shopUI != null && shopUI.IsOpen) shopUI.Hide();
+        if (skinsUI != null && skinsUI.IsOpen) skinsUI.Hide();
+        RefreshDisplay();
         if (popupRoot != null)
         {
             popupRoot.SetActive(false);
@@ -219,7 +232,8 @@ public sealed class MagicalWorldsMenuController : MonoBehaviour
 
     private void Update()
     {
-        if (popupRoot != null && popupRoot.activeSelf && Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame &&
+            ((popupRoot != null && popupRoot.activeSelf) || (shopUI != null && shopUI.IsOpen) || (skinsUI != null && skinsUI.IsOpen)))
         {
             ClosePopup();
         }

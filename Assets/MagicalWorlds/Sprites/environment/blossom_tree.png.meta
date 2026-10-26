@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: a6fa09ed46902b844be4e971e1ada86e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3040841660064654644
+    second: blossom_tree_0
+  - first:
+      213: -2212159913143760973
+    second: blossom_tree_1
+  - first:
+      213: -4395414188638266995
+    second: blossom_tree_2
+  - first:
+      213: -5109367224088981727
+    second: blossom_tree_3
+  - first:
+      213: -3106731087790586473
+    second: blossom_tree_4
+  - first:
+      213: -5061785690865486541
+    second: blossom_tree_5
+  - first:
+      213: 758596310253874755
+    second: blossom_tree_6
+  - first:
+      213: 834420354889586572
+    second: blossom_tree_7
+  - first:
+      213: 9131962865118721091
+    second: blossom_tree_8
+  - first:
+      213: -8704984628434204467
+    second: blossom_tree_9
+  - first:
+      213: -7145429023065105145
+    second: blossom_tree_10
+  - first:
+      213: 2379200995570467619
+    second: blossom_tree_11
+  - first:
+      213: 2696926152417230906
+    second: blossom_tree_12
+  - first:
+      213: 7513997502532604619
+    second: blossom_tree_13
+  - first:
+      213: -1555620122066546566
+    second: blossom_tree_14
+  - first:
+      213: -1740227401544282830
+    second: blossom_tree_15
+  - first:
+      213: -2960852396309300053
+    second: blossom_tree_16
+  - first:
+      213: 8908779337970751885
+    second: blossom_tree_17
+  - first:
+      213: -6622558807836695006
+    second: blossom_tree_18
+  - first:
+      213: 7892940737028057001
+    second: blossom_tree_19
+  - first:
+      213: 1934982329527342275
+    second: blossom_tree_20
+  - first:
+      213: 3927919179473904461
+    second: blossom_tree_21
+  - first:
+      213: -6353633130949651593
+    second: blossom_tree_22
+  - first:
+      213: -2919262474373300343
+    second: blossom_tree_23
+  - first:
+      213: 3258713112019572767
+    second: blossom_tree_24
+  - first:
+      213: -6433198558543587063
+    second: blossom_tree_25
+  - first:
+      213: 4869630588685359161
+    second: blossom_tree_26
+  - first:
+      213: 5641734652350041526
+    second: blossom_tree_27
+  - first:
+      213: -2820555698099543159
+    second: blossom_tree_28
+  - first:
+      213: 3824487431354942464
+    second: blossom_tree_29
+  - first:
+      213: -1127684131265753205
+    second: blossom_tree_30
+  - first:
+      213: 2689098496856765632
+    second: blossom_tree_31
+  - first:
+      213: 3331606380950065643
+    second: blossom_tree_32
+  - first:
+      213: -9034999547640310026
+    second: blossom_tree_33
+  - first:
+      213: 2527785716300199168
+    second: blossom_tree_34
+  - first:
+      213: 3359981804871521936
+    second: blossom_tree_35
+  - first:
+      213: -4565356495179373666
+    second: blossom_tree_36
+  - first:
+      213: -3760118266284057814
+    second: blossom_tree_37
+  - first:
+      213: -779799046588906113
+    second: blossom_tree_38
+  - first:
+      213: -3343922808398319104
+    second: blossom_tree_39
+  - first:
+      213: -2844442136568407412
+    second: blossom_tree_40
+  - first:
+      213: 4795460320176047458
+    second: blossom_tree_41
+  - first:
+      213: 1872983944235483857
+    second: blossom_tree_42
+  - first:
+      213: 4400466357681692905
+    second: blossom_tree_43
+  - first:
+      213: 2528948763754981787
+    second: blossom_tree_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blossom_tree_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435ec56f06d333a20800000000000000
+      internalID: 3040841660064654644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1254
+        height: 1238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b705be8744dc41e0800000000000000
+      internalID: -2212159913143760973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1229
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d891185551a5003c0800000000000000
+      internalID: -4395414188638266995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1229
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f072d8491e719b0800000000000000
+      internalID: -5109367224088981727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1210
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795449b298ca2e4d0800000000000000
+      internalID: -3106731087790586473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1156
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335bece8bbce0c9b0800000000000000
+      internalID: -5061785690865486541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1189
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eaa903353178a00800000000000000
+      internalID: 758596310253874755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_7
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1193
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c879c8e44e4749b00800000000000000
+      internalID: 834420354889586572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_8
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1191
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344b575b7df3bbe70800000000000000
+      internalID: 9131962865118721091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc881f6f99ea13780800000000000000
+      internalID: -8704984628434204467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 91
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d1070692656dc90800000000000000
+      internalID: -7145429023065105145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 93
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323cb3e23be940120800000000000000
+      internalID: 2379200995570467619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 89
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a304a44fb086d6520800000000000000
+      internalID: 2696926152417230906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 83
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2d0adeae4174860800000000000000
+      internalID: 7513997502532604619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_14
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 90
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7016c2bdb3596ae0800000000000000
+      internalID: -1555620122066546566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_15
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 95
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d4d8ef56879d7e0800000000000000
+      internalID: -1740227401544282830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_16
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 66
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacbe9dce60f8e6d0800000000000000
+      internalID: -2960852396309300053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_17
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 75
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89161e6b9752ab70800000000000000
+      internalID: 8908779337970751885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22662c22ad1f714a0800000000000000
+      internalID: -6622558807836695006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 73
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a764cf18cb598d60800000000000000
+      internalID: 7892940737028057001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 47
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4922e3d207ada10800000000000000
+      internalID: 1934982329527342275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_21
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 61
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d436cf6cea5c28630800000000000000
+      internalID: 3927919179473904461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 47
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773d794945c53d7a0800000000000000
+      internalID: -6353633130949651593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_23
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 57
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ff9d81f32bc77d0800000000000000
+      internalID: -2919262474373300343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_24
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 57
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1895da5f46493d20800000000000000
+      internalID: 3258713112019572767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_25
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 47
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909547cdeffa8b6a0800000000000000
+      internalID: -6433198558543587063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_26
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 59
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93897f15837649340800000000000000
+      internalID: 4869630588685359161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_27
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 12
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd065e66c77b4e40800000000000000
+      internalID: 5641734652350041526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_28
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983a299598f5bd8d0800000000000000
+      internalID: -2820555698099543159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_29
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 37
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048bd94e0f431530800000000000000
+      internalID: 3824487431354942464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_30
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4f01e149a950f0800000000000000
+      internalID: -1127684131265753205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 23
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c43f2fd5d8915520800000000000000
+      internalID: 2689098496856765632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be114f31a5e3c3e20800000000000000
+      internalID: 3331606380950065643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 19
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f69519e7cb3d9280800000000000000
+      internalID: -9034999547640310026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 22
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005316857bf741320800000000000000
+      internalID: 2527785716300199168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_35
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096942b46ad01ae20800000000000000
+      internalID: 3359981804871521936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_36
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 21
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93afc7b47894a0c0800000000000000
+      internalID: -4565356495179373666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 13
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b5ea8db5061dbc0800000000000000
+      internalID: -3760118266284057814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_38
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 27
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7541ef06e89d25f0800000000000000
+      internalID: -779799046588906113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_39
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 21
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00277113ceff791d0800000000000000
+      internalID: -3343922808398319104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_40
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8adfa182f28688d0800000000000000
+      internalID: -2844442136568407412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_41
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2650396f0c5ec8240800000000000000
+      internalID: 4795460320176047458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_42
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 29
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d28a2a49fc2ef910800000000000000
+      internalID: 1872983944235483857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_43
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 15
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0acaf66d8911d30800000000000000
+      internalID: 4400466357681692905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blossom_tree_44
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 15
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9967ce6081a81320800000000000000
+      internalID: 2528948763754981787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blossom_tree_0: 3040841660064654644
+      blossom_tree_1: -2212159913143760973
+      blossom_tree_10: -7145429023065105145
+      blossom_tree_11: 2379200995570467619
+      blossom_tree_12: 2696926152417230906
+      blossom_tree_13: 7513997502532604619
+      blossom_tree_14: -1555620122066546566
+      blossom_tree_15: -1740227401544282830
+      blossom_tree_16: -2960852396309300053
+      blossom_tree_17: 8908779337970751885
+      blossom_tree_18: -6622558807836695006
+      blossom_tree_19: 7892940737028057001
+      blossom_tree_2: -4395414188638266995
+      blossom_tree_20: 1934982329527342275
+      blossom_tree_21: 3927919179473904461
+      blossom_tree_22: -6353633130949651593
+      blossom_tree_23: -2919262474373300343
+      blossom_tree_24: 3258713112019572767
+      blossom_tree_25: -6433198558543587063
+      blossom_tree_26: 4869630588685359161
+      blossom_tree_27: 5641734652350041526
+      blossom_tree_28: -2820555698099543159
+      blossom_tree_29: 3824487431354942464
+      blossom_tree_3: -5109367224088981727
+      blossom_tree_30: -1127684131265753205
+      blossom_tree_31: 2689098496856765632
+      blossom_tree_32: 3331606380950065643
+      blossom_tree_33: -9034999547640310026
+      blossom_tree_34: 2527785716300199168
+      blossom_tree_35: 3359981804871521936
+      blossom_tree_36: -4565356495179373666
+      blossom_tree_37: -3760118266284057814
+      blossom_tree_38: -779799046588906113
+      blossom_tree_39: -3343922808398319104
+      blossom_tree_4: -3106731087790586473
+      blossom_tree_40: -2844442136568407412
+      blossom_tree_41: 4795460320176047458
+      blossom_tree_42: 1872983944235483857
+      blossom_tree_43: 4400466357681692905
+      blossom_tree_44: 2528948763754981787
+      blossom_tree_5: -5061785690865486541
+      blossom_tree_6: 758596310253874755
+      blossom_tree_7: 834420354889586572
+      blossom_tree_8: 9131962865118721091
+      blossom_tree_9: -8704984628434204467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

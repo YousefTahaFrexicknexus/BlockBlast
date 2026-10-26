@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using BlockBlastClone;
 using MagicalWorlds.Journey;
@@ -22,6 +23,9 @@ public sealed class JourneySession : MonoBehaviour
     [SerializeField] private Text resultTitle;
     [SerializeField] private Text resultDescription;
     [SerializeField] private Text starsText;
+    [SerializeField] private Image[] resultStars;
+    [SerializeField] private Sprite earnedStarSprite;
+    [SerializeField] private Sprite emptyStarSprite;
     [SerializeField] private Button retryButton;
     [SerializeField] private Button nextButton;
     [SerializeField] private Button returnButton;
@@ -37,6 +41,8 @@ public sealed class JourneySession : MonoBehaviour
     private int extraMovesGranted;
     private bool rewardedContinueUsed;
     private Coroutine pendingResult;
+    private string playtestSessionId;
+    private int lastCoinsEarned;
     public bool HasResumedAttempt { get; private set; }
 
     public int Seed => Level != null ? Level.randomSeed : 101;
@@ -60,6 +66,7 @@ public sealed class JourneySession : MonoBehaviour
     public bool TryRestoreAttempt(BlockBlastModel model)
     {
         HasResumedAttempt = false;
+        if (JourneyPlaytestContext.IsPreview) return false;
         if (model == null || Level == null ||
             !JourneyAttemptStore.TryLoad(Level, out JourneyAttemptSnapshot saved))
         {
@@ -82,7 +89,7 @@ public sealed class JourneySession : MonoBehaviour
 
     public void PersistAttempt()
     {
-        if (!completed && game != null && Level != null)
+        if (!JourneyPlaytestContext.IsPreview && !completed && game != null && Level != null)
         {
             JourneyAttemptStore.Save(Level, game.CurrentModel, clearedLines,
                 extraMovesGranted, rewardedContinueUsed);
@@ -108,6 +115,10 @@ public sealed class JourneySession : MonoBehaviour
             enabled = false;
             return;
         }
+        if (!JourneyPlaytestContext.IsPreview) JourneyWallet.EnsureInitialized();
+        playtestSessionId = Guid.NewGuid().ToString("N");
+        JourneyPlaytestTelemetry.Record(playtestSessionId, HasResumedAttempt ? "Resume" : "Start",
+            Level, game.CurrentModel.Score, clearedLines, game.CurrentModel.Moves, 0);
         ConfigureJourneyPresentation();
         RefreshHUD();
     }
@@ -144,20 +155,28 @@ public sealed class JourneySession : MonoBehaviour
             return;
         }
 
-        JourneyAttemptStore.Clear(Level.levelNumber);
+        if (!JourneyPlaytestContext.IsPreview) JourneyAttemptStore.Clear(Level.levelNumber);
 
         completed = true;
         game.SetJourneyInputLocked(true);
         if (won)
         {
-            int movesLeft = Mathf.Max(0, Level.moveLimit - model.Moves);
-            int stars = movesLeft >= Mathf.CeilToInt(Level.moveLimit * .5f) ? 3 :
-                movesLeft >= Mathf.CeilToInt(Level.moveLimit * .2f) ? 2 : 1;
-            JourneyProgress.Complete(Level.levelNumber, stars, catalog.Count);
-            pendingResult = StartCoroutine(ShowResult(true, stars, model.Score, false));
+            int stars = Level.CalculateStars(model.Moves);
+            lastCoinsEarned = 0;
+            if (!JourneyPlaytestContext.IsPreview)
+            {
+                // Commit the coin payout and its 50-level ledger before saving
+                // progression. Replaying a clear cannot duplicate a reward.
+                lastCoinsEarned = JourneyWallet.AwardJourneyWin(Level.levelNumber, stars);
+                JourneyProgress.Complete(Level.levelNumber, stars, catalog.Count);
+            }
+            JourneyPlaytestTelemetry.Record(playtestSessionId, "Win", Level,
+                model.Score, clearedLines, model.Moves, stars);            pendingResult = StartCoroutine(ShowResult(true, stars, model.Score, false));
         }
         else
         {
+            JourneyPlaytestTelemetry.Record(playtestSessionId, "Loss", Level,
+                model.Score, clearedLines, model.Moves, 0);
             pendingResult = StartCoroutine(ShowResult(false, 0, model.Score, placement.GameOver));
         }
     }
@@ -167,25 +186,38 @@ public sealed class JourneySession : MonoBehaviour
         // Let the placement/line-clear animation complete before the overlay.
         yield return new WaitForSecondsRealtime(.65f);
         resultTitle.text = won ? "LEVEL COMPLETE!" : (noLegalMoves ? "NO SPACE LEFT" : "OUT OF MOVES");
-        resultDescription.text = won ? "SCORE " + score.ToString("N0") +
-            "\n" + Level.ObjectiveText : "TRY AGAIN TO COMPLETE\n" + Level.ObjectiveText;
-        starsText.text = won ? new string('★', stars) + new string('☆', 3 - stars) : "☆☆☆";
+        resultDescription.text = won
+            ? "SCORE " + score.ToString("N0") + "\n" + Level.ObjectiveText +
+              (JourneyPlaytestContext.IsPreview ? "\nPLAYTEST - NO COINS" :
+                  lastCoinsEarned > 0 ? "\n+" + lastCoinsEarned.ToString("N0") + " COINS" :
+                  "\nCOINS ALREADY COLLECTED")
+            : "TRY AGAIN TO COMPLETE\n" + Level.ObjectiveText;
+        starsText.text = won ? "" : "Every attempt brings you closer.";
+        if (resultStars != null)
+        {
+            for (int i = 0; i < resultStars.Length; i++)
+            {
+                if (resultStars[i] == null) continue;
+                resultStars[i].gameObject.SetActive(won);
+                resultStars[i].sprite = i < stars ? earnedStarSprite : emptyStarSprite;
+            }
+        }
         bool hasNext = won && Level.levelNumber < catalog.Count;
         nextButton.gameObject.SetActive(won);
         nextButtonLabel.text = hasNext ? "NEXT LEVEL" : "LEVEL MAP";
         if (rewardedContinueButton != null)
         {
-            rewardedContinueButton.gameObject.SetActive(!won && !noLegalMoves && !rewardedContinueUsed);
+            rewardedContinueButton.gameObject.SetActive(false); // Hidden until a verified ad provider is connected.
             rewardedContinueButton.interactable = false; // No ad SDK is connected yet.
         }
         if (rewardedContinueLabel != null)
-            rewardedContinueLabel.text = "WATCH AD: +3 MOVES (SOON)";
+            rewardedContinueLabel.text = "CONTINUE +3 MOVES";
         resultPanel.SetActive(true);
         pendingResult = null;
     }
 
     // Connect this to the rewarded-ad provider's verified completion callback
-    // in the monetization milestone. The visible button remains disabled until then.
+    // in the monetization milestone. The button remains hidden until then.
     public void OnVerifiedRewardedAdCompleted()
     {
         if (!completed || rewardedContinueUsed || game == null || game.CurrentModel == null ||
@@ -225,19 +257,33 @@ public sealed class JourneySession : MonoBehaviour
     }
     public void ReturnToMap()
     {
+        if (!completed && game != null && Level != null && game.CurrentModel != null)
+            JourneyPlaytestTelemetry.Record(playtestSessionId, "Abandon", Level,
+                game.CurrentModel.Score, clearedLines, game.CurrentModel.Moves, 0);
         PersistAttempt();
         SceneManager.LoadScene("JourneyMap");
     }
 
     public void Retry()
     {
-        if (Level != null) JourneyAttemptStore.Clear(Level.levelNumber);
+        if (game != null && Level != null && game.CurrentModel != null)
+            JourneyPlaytestTelemetry.Record(playtestSessionId, "Retry", Level,
+                game.CurrentModel.Score, clearedLines, game.CurrentModel.Moves, 0);
+        if (Level != null && !JourneyPlaytestContext.IsPreview) JourneyAttemptStore.Clear(Level.levelNumber);
         SceneManager.LoadScene("JourneyGameplay");
     }
 
     public void Next()
     {
         int next = Level.levelNumber + 1;
+#if UNITY_EDITOR
+        if (JourneyPlaytestContext.IsPreview && next <= catalog.Count)
+        {
+            JourneyPlaytestContext.SetPreview(next);
+            SceneManager.LoadScene("JourneyGameplay");
+            return;
+        }
+#endif
         if (next <= catalog.Count && JourneyProgress.Select(next, catalog.Count))
         {
             SceneManager.LoadScene("JourneyGameplay");

@@ -1,0 +1,12 @@
+{
+    "status": "APPLIED_AND_VALIDATED",
+    "backup": "ProjectBackups/VectorUI_v2_20261017_145900_513",
+    "utc": "2026-10-17T14:59:00.8763620Z",
+    "prefabs": [
+        "Assets/MagicalWorlds/Prefabs/MainMenu/MainMenu.prefab",
+        "Assets/MagicalWorlds/Prefabs/Classic/ClassicGame.prefab",
+        "Assets/MagicalWorlds/Prefabs/Journey/JourneyLevelNode.prefab",
+        "Assets/MagicalWorlds/Prefabs/Journey/JourneyMapRoot.prefab",
+        "Assets/MagicalWorlds/Prefabs/Journey/JourneyGameplayRoot.prefab"
+    ]
+}

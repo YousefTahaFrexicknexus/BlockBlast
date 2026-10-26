@@ -1,0 +1,8 @@
+{"utc":"2026-10-16T23:57:22.5734723Z","sessionId":"88af02ddf882499ab6f6330b580d3e2b","eventType":"Start","level":50,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":32,"stars":0,"preview":true}
+{"utc":"2026-10-16T23:59:00.8787090Z","sessionId":"6712dcf9610f4a728eaf37bce901934a","eventType":"Start","level":1,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":8,"stars":0,"preview":false}
+{"utc":"2026-10-16T23:59:00.9319550Z","sessionId":"6712dcf9610f4a728eaf37bce901934a","eventType":"Win","level":1,"score":12,"clearedLines":0,"movesUsed":3,"moveLimit":8,"stars":3,"preview":false}
+{"utc":"2026-10-16T23:59:01.7758732Z","sessionId":"34cc3f91ff3f4d5083db443dd5bc1e29","eventType":"Start","level":2,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":10,"stars":0,"preview":false}
+{"utc":"2026-10-16T23:59:01.7861871Z","sessionId":"34cc3f91ff3f4d5083db443dd5bc1e29","eventType":"Loss","level":2,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":10,"stars":0,"preview":false}
+{"utc":"2026-10-16T23:59:02.4422466Z","sessionId":"34cc3f91ff3f4d5083db443dd5bc1e29","eventType":"Retry","level":2,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":10,"stars":0,"preview":false}
+{"utc":"2026-10-16T23:59:02.6196880Z","sessionId":"d9a1df9fc70040beb9b8ca80e2439b36","eventType":"Start","level":2,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":10,"stars":0,"preview":false}
+{"utc":"2026-10-16T23:59:02.6291496Z","sessionId":"d9a1df9fc70040beb9b8ca80e2439b36","eventType":"Abandon","level":2,"score":0,"clearedLines":0,"movesUsed":0,"moveLimit":10,"stars":0,"preview":false}

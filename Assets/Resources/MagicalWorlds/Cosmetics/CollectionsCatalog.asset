@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4860f25d73f845f45b5e53f7f823127a, type: 3}
+  m_Name: CollectionsCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MagicalWorlds.Journey.CollectionsCatalog
+  blocks:
+  - id: gems
+    displayName: Enchanted Gems
+    preview: {fileID: 0}
+    background: {fileID: 0}
+    unlockLevel: 1
+  - id: classic
+    displayName: Classic Blocks
+    preview: {fileID: 0}
+    background: {fileID: 0}
+    unlockLevel: 11
+  backgrounds:
+  - id: garden
+    displayName: Enchanted Garden
+    preview: {fileID: 21300000, guid: ebb2cbd2f1c99404d966275012345763, type: 3}
+    background: {fileID: 21300000, guid: af53cb771edad744ca0ebbc6f9050461, type: 3}
+    unlockLevel: 1
+  - id: ocean
+    displayName: Ocean Palace
+    preview: {fileID: 21300000, guid: ef17c8f0e34c78e458ff3269ea440934, type: 3}
+    background: {fileID: 21300000, guid: 3e2728f974212524a938b2a0e70b3f2f, type: 3}
+    unlockLevel: 31
+  - id: crystal
+    displayName: Crystal Caverns
+    preview: {fileID: 21300000, guid: e49cb7c81fb6b0a489f1e4e48dcb915b, type: 3}
+    background: {fileID: 21300000, guid: b8e1e6930e21acb419f90d915402f58a, type: 3}
+    unlockLevel: 21
+  - id: autumn
+    displayName: Autumn Grove
+    preview: {fileID: 21300000, guid: e587244aa06754e4598d79abe2120807, type: 3}
+    background: {fileID: 21300000, guid: 3291f44671baef04088e42ce4c2f70a1, type: 3}
+    unlockLevel: 11
+  - id: sky
+    displayName: Sky Kingdom
+    preview: {fileID: 21300000, guid: 139d06f037f4a554ab446b049be512e1, type: 3}
+    background: {fileID: 21300000, guid: 82e8bc1e7fad3794ca7630c5a99dbe77, type: 3}
+    unlockLevel: 41

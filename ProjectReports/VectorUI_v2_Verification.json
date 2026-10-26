@@ -1,0 +1,1647 @@
+{
+  "status": "PASS",
+  "componentCount": 84,
+  "screenCount": 9,
+  "components": [
+    {
+      "name": "Button_gold_normal",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "70e0ab8289891a92809d0e66c71f5b2e3acfa1192ca36d09ba791e757332196b"
+    },
+    {
+      "name": "Button_gold_pressed",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        7,
+        518,
+        127
+      ],
+      "sha256": "a0b0e0e626dc57decc44b96d3d26271de52c0f6a6adf380d017671914544aeec"
+    },
+    {
+      "name": "Button_gold_disabled",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "194983b3ceb190c6e1f0a96e29b8175781607ee6392fb074b1b347cea3f81e6d"
+    },
+    {
+      "name": "Button_gold_selected",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "3ac76006b7be972ec4c1984f138d6bde19f4e94f87308ff777083405266b7a07"
+    },
+    {
+      "name": "Button_violet_normal",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "6d03b6b03e59edda816b46ef440515096a7f5d0c419017dbc4009d589830a971"
+    },
+    {
+      "name": "Button_violet_pressed",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        7,
+        518,
+        127
+      ],
+      "sha256": "0f991b149755874879432f4c7030cf8adf2a6deda404441cca60f47644fffefb"
+    },
+    {
+      "name": "Button_violet_disabled",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "faa246402ddcfecec5e537280d33f36f0b1b080baea8be3c8ec79e15705d8a01"
+    },
+    {
+      "name": "Button_violet_selected",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "5667218b0635e4368b00116d768a0ff64300b23118d92dbf3395d0bafb843987"
+    },
+    {
+      "name": "Button_blue_normal",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "8238e3f3b3167339f3204aaf475f54d425e5891e5ee93ab5720cc7e17ff53807"
+    },
+    {
+      "name": "Button_blue_pressed",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        7,
+        518,
+        127
+      ],
+      "sha256": "a874e29c652c76fe77c7be21eeab1324b1a32dd454ec3f2fbbf2dbbf995e85a7"
+    },
+    {
+      "name": "Button_blue_disabled",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "aa48b5ecc2d9f4747842ee3acffc08b2aa9abe91d39a2286f1c285d912111d61"
+    },
+    {
+      "name": "Button_blue_selected",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "2447b4c58a7f54265beca0947272fcaa71bcd804ff380c1508a6d85a764a01b1"
+    },
+    {
+      "name": "Button_mint_normal",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "f72931bea3f653090eaefdb149d45eaa9bc650b3f5b187837aa0bf582faf9914"
+    },
+    {
+      "name": "Button_mint_pressed",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        7,
+        518,
+        127
+      ],
+      "sha256": "873b4046efb301501bcc8fb2b55d7cd691c46f7564227d8909d3197f9749a7a6"
+    },
+    {
+      "name": "Button_mint_disabled",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "4019d67b17eb51b51771ac80fdebcc115b14ec6050d40b00110cac53f4f1278c"
+    },
+    {
+      "name": "Button_mint_selected",
+      "size": [
+        520,
+        128
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        518,
+        127
+      ],
+      "sha256": "38b3598a74b7f860ef9ce5d26e72a0b6e89f6e4f976920adeac9ea1aaf358ed8"
+    },
+    {
+      "name": "Icon_coin",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        9,
+        7,
+        95,
+        97
+      ],
+      "sha256": "0493f45fcd40ec014d4890f8a2b65ddb38a26270da6fcd40e8318bd251771cd6"
+    },
+    {
+      "name": "Icon_gem",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        14,
+        4,
+        90,
+        104
+      ],
+      "sha256": "a62cb9dbb89e3b3ef7994dc4cb2ee3071b34dd6617f4225a13f9f2f21ce43f80"
+    },
+    {
+      "name": "Icon_energy",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        19,
+        6,
+        87,
+        97
+      ],
+      "sha256": "a8a4374921b85342433dd5592fe668336d2728cfe66bf6860729f4877b7bf273"
+    },
+    {
+      "name": "Icon_star",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        9,
+        7,
+        95,
+        89
+      ],
+      "sha256": "997fc2ce37a11cbc7197a6f46ec27236a6662f685658b5e6605a26a77a9bc5a8"
+    },
+    {
+      "name": "Icon_lock",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        15,
+        5,
+        89,
+        95
+      ],
+      "sha256": "585d5bb0f0caa866389df849db77476adc43cb9e6177e76e80cc251cac74753d"
+    },
+    {
+      "name": "Icon_pause",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        27,
+        21,
+        77,
+        83
+      ],
+      "sha256": "8df2f1e9a0c9e36d665bfa1684c0b5ef9ce2ed3eb6a3580aabed0c8a97d266fd"
+    },
+    {
+      "name": "Icon_back",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        27,
+        15,
+        70,
+        89
+      ],
+      "sha256": "3cc56a3ff23cbbdb1e2eabce6bcd6477ea41f2a240da14c967d33647fceab981"
+    },
+    {
+      "name": "Icon_next",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        34,
+        15,
+        77,
+        89
+      ],
+      "sha256": "6b79a49915ecb340a1dd52bc374da5811f1e376d24328a7aefd571b82c6a22a4"
+    },
+    {
+      "name": "Icon_play",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        29,
+        19,
+        84,
+        85
+      ],
+      "sha256": "e201e916f6928908b7d5f0c74732080884f756cdd0303917191afd272000d7ac"
+    },
+    {
+      "name": "Icon_close",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        23,
+        23,
+        81,
+        81
+      ],
+      "sha256": "8efc464c32e5ff81da26153165e06630effc11fcb4ec292a8fa5acb8045e4d1d"
+    },
+    {
+      "name": "Icon_plus",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        21,
+        21,
+        83,
+        83
+      ],
+      "sha256": "b2360b5a786c4345448fdfa1971f6b3c4579d6b00395df9fc348211a4c76db20"
+    },
+    {
+      "name": "Icon_check",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        15,
+        23,
+        90,
+        81
+      ],
+      "sha256": "e83591bdc91b6fd664fa8208e21b19d4fb535e06af03825020f8db170574f6ae"
+    },
+    {
+      "name": "Icon_book",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        10,
+        14,
+        94,
+        91
+      ],
+      "sha256": "6a0b381e973bda00924bec66d60e50dd3424d7486bade5d65e293a40d3a9b1f1"
+    },
+    {
+      "name": "Icon_shop",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        12,
+        11,
+        94,
+        92
+      ],
+      "sha256": "ae091adcf959e4444c935ff56949e912ccfb44f67930845f07f55c5f6e374523"
+    },
+    {
+      "name": "Icon_skins",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        10,
+        12,
+        94,
+        92
+      ],
+      "sha256": "0f104e82bc9a1a6db1fce0a7fb96c550c92a65155516c3bf87a028628493bc29"
+    },
+    {
+      "name": "Icon_events",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        12,
+        9,
+        92,
+        93
+      ],
+      "sha256": "f742a75a57f5c00404b6aeaf55fe2881b54cdf9bec073a104bbd96c8d9085280"
+    },
+    {
+      "name": "Icon_settings",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        8,
+        8,
+        96,
+        96
+      ],
+      "sha256": "8885633cdd62b8c2cd784567ce0e2840ee8877ee9ad95242853ddfe9a018a432"
+    },
+    {
+      "name": "Icon_sound",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        16,
+        21,
+        84,
+        83
+      ],
+      "sha256": "e2f7aa2539f6e2f19c69da83ae4f8a196c9c0bcfd9d9d57a094e272afb518db6"
+    },
+    {
+      "name": "Icon_music",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        15,
+        15,
+        85,
+        87
+      ],
+      "sha256": "85a202d42b41f6c088ff95f97c97d7b7fdc92f153f350b20e7cf812663528854"
+    },
+    {
+      "name": "Nav_Surface_normal",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        208,
+        207
+      ],
+      "sha256": "f43364c9721f68aa006978808fa184a8a666bcef5da7df359c09e29105d2b548"
+    },
+    {
+      "name": "Nav_Surface_pressed",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        7,
+        208,
+        207
+      ],
+      "sha256": "81fdb896b98f33c878d90a9fa3d242cefa0789f76a6a26168437227aed5253d9"
+    },
+    {
+      "name": "Nav_Surface_selected",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        208,
+        208
+      ],
+      "sha256": "e15ff132b873a07e30bfea56a2e7ca5ce9e9867358fe4af68dbe84d9654a5315"
+    },
+    {
+      "name": "Nav_Surface_disabled",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        208,
+        207
+      ],
+      "sha256": "cbfc6b5c8e997eeff7b1c2902c491088049a0324c9fcf580a0789e2c25c7313f"
+    },
+    {
+      "name": "Nav_Shop_IconLabel",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        67,
+        30,
+        145,
+        180
+      ],
+      "sha256": "02a2a5d3d60f8c46d5aa5a86a529d25ad39c1ecd495e1bcaa1bfe674d9f1f1f0"
+    },
+    {
+      "name": "Nav_Skins_IconLabel",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        64,
+        31,
+        145,
+        175
+      ],
+      "sha256": "87aaf32230c3df7bfe9f6e74a02253b38365acba4ba1c35ea992306b9cdaf046"
+    },
+    {
+      "name": "Nav_Events_IconLabel",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        56,
+        28,
+        155,
+        175
+      ],
+      "sha256": "05bf133bed1dc3b137b785600dd1513ea5c8ddfe54795710c45f68999b260fc1"
+    },
+    {
+      "name": "Nav_Settings_IconLabel",
+      "size": [
+        210,
+        210
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        45,
+        27,
+        165,
+        181
+      ],
+      "sha256": "be2c73519bd60212ec7512e6c90d5387087badf57cbff426d00492621d4944a4"
+    },
+    {
+      "name": "Currency_coin_Blank",
+      "size": [
+        351,
+        120
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        12,
+        349,
+        109
+      ],
+      "sha256": "6ca601c2e8e1f7c42cdae0629eebb07d4d61e07f6ad3e78c7461b0f5b490bf8c"
+    },
+    {
+      "name": "Currency_gem_Blank",
+      "size": [
+        284,
+        120
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        12,
+        282,
+        109
+      ],
+      "sha256": "a8e84a861dcce9a33b42410b8209c4edf379ed13eedd5d17f092b4379be161ab"
+    },
+    {
+      "name": "Currency_energy_Blank",
+      "size": [
+        283,
+        120
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        12,
+        281,
+        109
+      ],
+      "sha256": "f7a41e48bc34325e786beb8fc1b46ea561032f24569bb0cfa5c1ad027e6f03e8"
+    },
+    {
+      "name": "Level_locked",
+      "size": [
+        196,
+        206
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        7,
+        7,
+        189,
+        195
+      ],
+      "sha256": "a7a3696857544e0dbed716fd3e529afc2502cd7a8f3f39ca29e2e6d5b20d5e29"
+    },
+    {
+      "name": "Level_current",
+      "size": [
+        196,
+        206
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        1,
+        7,
+        193,
+        195
+      ],
+      "sha256": "0475a194c2d7fd131eb52b181779f1c096d869f92e7731197799db507789730b"
+    },
+    {
+      "name": "Level_completed",
+      "size": [
+        196,
+        206
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        7,
+        7,
+        189,
+        195
+      ],
+      "sha256": "89dd37f6572c90123a272b1305314160066f5f67579a59f21527cb11a5229f69"
+    },
+    {
+      "name": "Level_unlocked",
+      "size": [
+        196,
+        206
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        7,
+        7,
+        189,
+        195
+      ],
+      "sha256": "f005f791a1d9b302410cb2c846e13e9637ef038da3a2d076fb08263e050c14ed"
+    },
+    {
+      "name": "Panel_Modal",
+      "size": [
+        880,
+        1130
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        1,
+        878,
+        1127
+      ],
+      "sha256": "ff41a4df1268c58722bc0bb85523ae307c221e0ab29d8133752fd7eb4a7fdd2c"
+    },
+    {
+      "name": "Panel_Card",
+      "size": [
+        820,
+        164
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        1,
+        818,
+        161
+      ],
+      "sha256": "1945d5d65b5b16cf33504c5dc1b787f14bd38ff967d9dd0bb68d70b2008f0f3e"
+    },
+    {
+      "name": "Panel_HUD",
+      "size": [
+        450,
+        180
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        1,
+        448,
+        177
+      ],
+      "sha256": "3fcf887b23edb14498c6eb9a371308832dc91aa13a00cd42ac9b9da4a141eea4"
+    },
+    {
+      "name": "Panel_Board",
+      "size": [
+        936,
+        936
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        1,
+        934,
+        933
+      ],
+      "sha256": "10275b5401ec24bbea94f0801ac1758446b3218119ac15f28270b2b50bcc5e87"
+    },
+    {
+      "name": "Panel_Tray",
+      "size": [
+        294,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        1,
+        292,
+        217
+      ],
+      "sha256": "79f4f2dd6479617b7ff1df256588a762f22b864b6b05b036b51a8bed88d320fd"
+    },
+    {
+      "name": "Ornament_Crown",
+      "size": [
+        820,
+        110
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        28,
+        28,
+        792,
+        99
+      ],
+      "sha256": "efbbe68da94f08257c37ef7fbc76e61bda063e8a31c3aa9e2cf48d707d8be206"
+    },
+    {
+      "name": "Ornament_Flower",
+      "size": [
+        60,
+        60
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        0,
+        0,
+        60,
+        60
+      ],
+      "sha256": "8c87ef0a54a3a8699ef827bfff888734207ffa22f9146e882a575e2c44c3fbf2"
+    },
+    {
+      "name": "Ornament_Leaf",
+      "size": [
+        64,
+        64
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        0,
+        49,
+        61
+      ],
+      "sha256": "872b3cf7a5498c28054c75fc30fa4a0dc7b2776a90617ce30030f7a89cdd5250"
+    },
+    {
+      "name": "Logo_MagicalWorlds",
+      "size": [
+        708,
+        475
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        20,
+        3,
+        688,
+        458
+      ],
+      "sha256": "dbfd14dd3ec0b093cf5d01bb3789561477ab475306d322368ddb542d1175f542"
+    },
+    {
+      "name": "CTA_Play_Decoration",
+      "size": [
+        726,
+        291
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        41,
+        724,
+        272
+      ],
+      "sha256": "2ef621a0cbaeee7dcad173facbe5f390f3cbbd98b6b49cd8b4f8130a002f238d"
+    },
+    {
+      "name": "CTA_Journey_Decoration",
+      "size": [
+        684,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        4,
+        682,
+        182
+      ],
+      "sha256": "39b5278bf78fbc064bca6fb9eabdae287db015bc905b4e2c933e4ba941be52a3"
+    },
+    {
+      "name": "CTA_Play_pressed",
+      "size": [
+        726,
+        291
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        41,
+        724,
+        272
+      ],
+      "sha256": "6af14a4d748226bfa4696dfe1db1573fe854274bfb5b8f55a2b671f05e8629ea"
+    },
+    {
+      "name": "CTA_Journey_pressed",
+      "size": [
+        684,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        4,
+        682,
+        182
+      ],
+      "sha256": "e855742cfddd5afa5dbbfd509295da0d93554d27badff0a3be3a9710729fa5e9"
+    },
+    {
+      "name": "CTA_Play_disabled",
+      "size": [
+        726,
+        291
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        41,
+        724,
+        272
+      ],
+      "sha256": "7a3cb2794cd7b7b2cba7c9228687a1fa7e1abb9d77474f50fc4e79e53f552d8d"
+    },
+    {
+      "name": "CTA_Journey_disabled",
+      "size": [
+        684,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        4,
+        682,
+        182
+      ],
+      "sha256": "4adb794440016dc19c372071fdd33ab8498560c7969770fbf9283ccc83055dc2"
+    },
+    {
+      "name": "CTA_Play_selected",
+      "size": [
+        726,
+        291
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        41,
+        724,
+        273
+      ],
+      "sha256": "3ba1bd2f91a35824099c3e0a7a8a08d75bbebd92a3f9b795caa387e916885f5b"
+    },
+    {
+      "name": "CTA_Journey_selected",
+      "size": [
+        684,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        4,
+        682,
+        182
+      ],
+      "sha256": "0722e829b7d815430b09409c2054d19e7a044bee908401cf6daa6b76f082dc32"
+    },
+    {
+      "name": "Tile_Cyan",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "c748526d40bad09b7c40c0b868103d5f1a7d408953197dd1761613d2e09faa83"
+    },
+    {
+      "name": "Tile_Mint",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "8a161f8f64971d42cf39217c57bd852790b33b9d7d96be0dbf59efab29376f76"
+    },
+    {
+      "name": "Tile_Gold",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "27f58ba8e1dbe91018ee77238a48183a3ebacb7e8efe15ac01a92ed39043459a"
+    },
+    {
+      "name": "Tile_Lavender",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "3a54719f20672cf565b73525dd7b622bd24c6a3966570b166e7f65903fadf824"
+    },
+    {
+      "name": "Tile_Pink",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "c466ecf5e57baddd3a55452e6ef7f2825c85beb1f069ca05e84fab7f0178db1a"
+    },
+    {
+      "name": "Tile_Orange",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "bf3627cbaa4b35003b629377ffe9f4056e58fb1d78b4a5461e6f21214b7ea04c"
+    },
+    {
+      "name": "Tile_Red",
+      "size": [
+        104,
+        108
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        103
+      ],
+      "sha256": "13715e098c6df7028467d1e9a256519c3c7dab8048fad1f1c83b470acf42e95a"
+    },
+    {
+      "name": "Cell_Empty",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        102
+      ],
+      "sha256": "93e4ca408fd068840df5e4216d790c3e5088b47275edda14fecafbb8ecc64ab7"
+    },
+    {
+      "name": "Cell_Valid",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        102
+      ],
+      "sha256": "8d83857fd3ba41f6a440aa4e3dadd13e3b0514aa23ebd71c9a7e153b511b3cde"
+    },
+    {
+      "name": "Cell_Invalid",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        102,
+        102
+      ],
+      "sha256": "79c37a5eac80524aa50a49045b28d1a0cbf903c98aac8026392240dc6b15edae"
+    },
+    {
+      "name": "Progress_Track",
+      "size": [
+        700,
+        40
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        1,
+        1,
+        699,
+        39
+      ],
+      "sha256": "9b44791c0be322a4d1cc3af3f89bfd03dee9ee1d2e00fbd3404a554c80687bb3"
+    },
+    {
+      "name": "Progress_Fill",
+      "size": [
+        700,
+        40
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        3,
+        6,
+        697,
+        34
+      ],
+      "sha256": "f0bce04a9dad4b61451183ece7af40f80e5a280794d9277cb84ca43730d4f22a"
+    },
+    {
+      "name": "Star_Empty",
+      "size": [
+        104,
+        104
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        7,
+        5,
+        97,
+        91
+      ],
+      "sha256": "b7bb1e7ab63af945c5c067fdd52c826459396bb243d031cbcb841e975563f91b"
+    },
+    {
+      "name": "Toggle_On",
+      "size": [
+        160,
+        76
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        158,
+        74
+      ],
+      "sha256": "a557940ac26f5c13db959b543377849be262534c12fb8d27e95d7c27898816ab"
+    },
+    {
+      "name": "Toggle_Off",
+      "size": [
+        160,
+        76
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        158,
+        74
+      ],
+      "sha256": "c90cd396bc7d2be64aefafb36dc8cb917d3f032a62feedfc2ac79ef509ad3d93"
+    },
+    {
+      "name": "Badge_Equipped",
+      "size": [
+        250,
+        74
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        248,
+        74
+      ],
+      "sha256": "956bf7c95de609b34d410863b736d6e193e840d980f53cb9352c6a62105c6ac7"
+    },
+    {
+      "name": "Badge_NotEnough",
+      "size": [
+        320,
+        74
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "contentBounds": [
+        2,
+        2,
+        318,
+        74
+      ],
+      "sha256": "3bc07e378b239d8542e250ff4a2444e597845529cc7f83de5491f191da64769e"
+    }
+  ],
+  "native": [
+    {
+      "name": "MagicalWorlds_Vector_UI_Master_v2",
+      "artboards": 9,
+      "objects": 4066,
+      "kinds": {
+        "Clip Group": 9,
+        "Compound Path": 228,
+        "Group": 949,
+        "Layer": 10,
+        "Path": 2788,
+        "Type": 82
+      },
+      "fonts": [
+        {
+          "family": "Arial",
+          "missing": false,
+          "missingGlyphs": 0,
+          "objects": 72,
+          "resolved": {
+            "family": "Arial",
+            "style": "Bold"
+          },
+          "runs": 72,
+          "status": "exact",
+          "style": "Bold"
+        },
+        {
+          "family": "Georgia",
+          "missing": false,
+          "missingGlyphs": 0,
+          "objects": 10,
+          "resolved": {
+            "family": "Georgia",
+            "style": "Bold"
+          },
+          "runs": 10,
+          "status": "exact",
+          "style": "Bold"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "name": "MagicalWorlds_Component_Library_v2",
+      "artboards": 84,
+      "objects": 5786,
+      "kinds": {
+        "Clip Group": 84,
+        "Compound Path": 332,
+        "Group": 1095,
+        "Layer": 85,
+        "Path": 4183,
+        "Type": 7
+      },
+      "fonts": [
+        {
+          "family": "Arial",
+          "missing": false,
+          "missingGlyphs": 0,
+          "objects": 6,
+          "resolved": {
+            "family": "Arial",
+            "style": "Bold"
+          },
+          "runs": 6,
+          "status": "exact",
+          "style": "Bold"
+        },
+        {
+          "family": "Georgia",
+          "missing": false,
+          "missingGlyphs": 0,
+          "objects": 1,
+          "resolved": {
+            "family": "Georgia",
+            "style": "Bold"
+          },
+          "runs": 1,
+          "status": "exact",
+          "style": "Bold"
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "exportWarnings": [],
+  "roundtrip": "Both native masters match their source artboard 0 PNG pixel-for-pixel",
+  "review": "Existing backgrounds composited for review only; no backgrounds created or edited",
+  "unityPlayMode": "PASS: Shop and Journey runtime checks; portrait visual review completed.",
+  "unityIntegration": {
+    "status": "APPLIED_AND_VALIDATED",
+    "sourceCompilation": "Unity Editor recompile passed: 0 errors, 0 warnings",
+    "prefabs": [
+      "Assets/MagicalWorlds/Prefabs/MainMenu/MainMenu.prefab",
+      "Assets/MagicalWorlds/Prefabs/Classic/ClassicGame.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyLevelNode.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyMapRoot.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyGameplayRoot.prefab"
+    ],
+    "backup": "ProjectBackups/VectorUI_v2_20261017_145900_513",
+    "runtimeChecks": [
+      "Wallet and real Shop purchase/equip/header refresh",
+      "Journey pages 1/9 and 9/9",
+      "Pause/Continue HUD visibility",
+      "Level 1 victory/stars/unlock/reward/replay protection",
+      "Level 2 loss, disabled unreleased ad action, retry/return callbacks"
+    ],
+    "frames": "Frame counter confirmed advancing in Play Mode",
+    "captures": "7 portrait 1080x1920 Game view captures; win/loss are isolated presentation previews",
+    "restored": {
+      "scene": "Assets/Scenes/JourneyMap.unity",
+      "sceneDirty": false,
+      "playMode": false,
+      "previewCleared": true,
+      "runInBackground": false
+    },
+    "finalConsole": {
+      "sampledUtc": "2026-10-17T15:01:37.8188587Z",
+      "ageMs": 18,
+      "compilationFailed": false,
+      "compiling": false,
+      "consoleErrors": 0,
+      "consoleWarnings": 0,
+      "consoleLogs": 12,
+      "seeded": true
+    }
+  }
+}

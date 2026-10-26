@@ -184,6 +184,7 @@ public sealed partial class BlockBlastPrototype
         dialogSecondary.gameObject.SetActive(false);
         dialogTertiary.gameObject.SetActive(false);
         dialogMenu.gameObject.SetActive(kind == GameDialog.Pause);
+        dialogMenu.GetComponentInChildren<Text>().text = journeySession != null ? "JOURNEY MAP" : "MAIN MENU";
         dialogSound.gameObject.SetActive(kind == GameDialog.Pause);
         dialogVibration.gameObject.SetActive(kind == GameDialog.Pause);
         UpdateDialogSettingsLabels();
@@ -191,7 +192,7 @@ public sealed partial class BlockBlastPrototype
         switch (kind)
         {
             case GameDialog.Pause:
-                dialogTitle.text = "PAUSED";
+                dialogTitle.text = "Take a breath";
                 dialogBody.text = journeySession != null
                     ? "JOURNEY LEVEL " + journeySession.Level.levelNumber +
                       "\n\nSCORE  " + game.Score.ToString("N0") +
@@ -205,10 +206,7 @@ public sealed partial class BlockBlastPrototype
                 break;
             case GameDialog.Guide:
                 dialogTitle.text = "HOW TO PLAY";
-                dialogBody.text = "1  DRAG A BLOCK SHAPE\n     ONTO THE 8 x 8 BOARD\n\n" +
-                    "2  COMPLETE FULL ROWS\n     OR COLUMNS TO CLEAR\n\n" +
-                    "3  USE ALL THREE PIECES\n     TO GET A NEW HAND\n\n" +
-                    "KEEP SPACE OPEN TO SURVIVE!";
+                dialogBody.text = "Drag a shape onto the board.\n\nFill a row or column to clear it.\n\nUse all three shapes to get a new hand.\n\nLeave room for your next move.";
                 SetDialogAction(dialogPrimary, guideOpenedFromPause ? "BACK TO PAUSE" : "LET'S PLAY", CloseGuide);
                 break;
             case GameDialog.ConfirmRestart:

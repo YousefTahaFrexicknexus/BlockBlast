@@ -1,0 +1,719 @@
+{
+  "status": "INSTALLED_APPLIED_AND_VERIFIED",
+  "pngs": 84,
+  "outlinedSVGs": 93,
+  "prefabApplication": {
+    "status": "APPLIED_AND_VALIDATED",
+    "backup": "ProjectBackups/VectorUI_v2_20261017_145900_513",
+    "utc": "2026-10-17T14:59:00.8763620Z",
+    "prefabs": [
+      "Assets/MagicalWorlds/Prefabs/MainMenu/MainMenu.prefab",
+      "Assets/MagicalWorlds/Prefabs/Classic/ClassicGame.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyLevelNode.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyMapRoot.prefab",
+      "Assets/MagicalWorlds/Prefabs/Journey/JourneyGameplayRoot.prefab"
+    ]
+  },
+  "files": [
+    {
+      "path": "Badge_Equipped.png",
+      "sha256": "956bf7c95de609b34d410863b736d6e193e840d980f53cb9352c6a62105c6ac7"
+    },
+    {
+      "path": "Badge_Equipped.png.meta",
+      "sha256": "1d21a264685a727f5223074153940799e22c447ebe80f510655ea8986917272c"
+    },
+    {
+      "path": "Badge_NotEnough.png",
+      "sha256": "3bc07e378b239d8542e250ff4a2444e597845529cc7f83de5491f191da64769e"
+    },
+    {
+      "path": "Badge_NotEnough.png.meta",
+      "sha256": "cf94d0db5a085aa942dba9eb60dc095cd33c3c032099140f359729963a6ac889"
+    },
+    {
+      "path": "Button_blue_disabled.png",
+      "sha256": "aa48b5ecc2d9f4747842ee3acffc08b2aa9abe91d39a2286f1c285d912111d61"
+    },
+    {
+      "path": "Button_blue_disabled.png.meta",
+      "sha256": "b903d21411907b912ac8c1f1f3c35aa13ab4c91185a7625aca9980bc4247716c"
+    },
+    {
+      "path": "Button_blue_normal.png",
+      "sha256": "8238e3f3b3167339f3204aaf475f54d425e5891e5ee93ab5720cc7e17ff53807"
+    },
+    {
+      "path": "Button_blue_normal.png.meta",
+      "sha256": "10643988a94ee3d3812a38a11c110e0afc0c378ba72500aec812220d49a52941"
+    },
+    {
+      "path": "Button_blue_pressed.png",
+      "sha256": "a874e29c652c76fe77c7be21eeab1324b1a32dd454ec3f2fbbf2dbbf995e85a7"
+    },
+    {
+      "path": "Button_blue_pressed.png.meta",
+      "sha256": "de54462f31d16502b4f974dcd40d9a66e8e7276968dc93acafd682fdc943adda"
+    },
+    {
+      "path": "Button_blue_selected.png",
+      "sha256": "2447b4c58a7f54265beca0947272fcaa71bcd804ff380c1508a6d85a764a01b1"
+    },
+    {
+      "path": "Button_blue_selected.png.meta",
+      "sha256": "6bf83150b9ea33b8905b223128cd12e667e8ca363220c9eb05a7dcb9a9cd7291"
+    },
+    {
+      "path": "Button_gold_disabled.png",
+      "sha256": "194983b3ceb190c6e1f0a96e29b8175781607ee6392fb074b1b347cea3f81e6d"
+    },
+    {
+      "path": "Button_gold_disabled.png.meta",
+      "sha256": "514e636d238f945ab549f3700f5c4ec6480944b0615325c130aadbb69cffcfaa"
+    },
+    {
+      "path": "Button_gold_normal.png",
+      "sha256": "70e0ab8289891a92809d0e66c71f5b2e3acfa1192ca36d09ba791e757332196b"
+    },
+    {
+      "path": "Button_gold_normal.png.meta",
+      "sha256": "2e339e8d0650a9d387f0b5987ab0b31df42915ffc75e3a0d29537d7ebb6b7147"
+    },
+    {
+      "path": "Button_gold_pressed.png",
+      "sha256": "a0b0e0e626dc57decc44b96d3d26271de52c0f6a6adf380d017671914544aeec"
+    },
+    {
+      "path": "Button_gold_pressed.png.meta",
+      "sha256": "d875208af3838e6e3d354da63a823f457f77bbb42a01f9c3906bc76b5f774d6a"
+    },
+    {
+      "path": "Button_gold_selected.png",
+      "sha256": "3ac76006b7be972ec4c1984f138d6bde19f4e94f87308ff777083405266b7a07"
+    },
+    {
+      "path": "Button_gold_selected.png.meta",
+      "sha256": "f036a7a77614a710bb7b46e2854e33c92409f2aa1dacf6f837341b9c82b84582"
+    },
+    {
+      "path": "Button_mint_disabled.png",
+      "sha256": "4019d67b17eb51b51771ac80fdebcc115b14ec6050d40b00110cac53f4f1278c"
+    },
+    {
+      "path": "Button_mint_disabled.png.meta",
+      "sha256": "983279241653113980e8d8b286b12331c4f65e492dad35d3ecf2cdd8fc306366"
+    },
+    {
+      "path": "Button_mint_normal.png",
+      "sha256": "f72931bea3f653090eaefdb149d45eaa9bc650b3f5b187837aa0bf582faf9914"
+    },
+    {
+      "path": "Button_mint_normal.png.meta",
+      "sha256": "0f9bff33669266a7d7d5897f9460515dc4e9f88c88396165e20269d2edd04619"
+    },
+    {
+      "path": "Button_mint_pressed.png",
+      "sha256": "873b4046efb301501bcc8fb2b55d7cd691c46f7564227d8909d3197f9749a7a6"
+    },
+    {
+      "path": "Button_mint_pressed.png.meta",
+      "sha256": "0952d7a0e32fa7cf19992bf37ae8d8119538090ce0d41789961a182fedf4a5ee"
+    },
+    {
+      "path": "Button_mint_selected.png",
+      "sha256": "38b3598a74b7f860ef9ce5d26e72a0b6e89f6e4f976920adeac9ea1aaf358ed8"
+    },
+    {
+      "path": "Button_mint_selected.png.meta",
+      "sha256": "26a0dd1965522b1eb2652ed71bf6741dfa400463fbb822272aed00596811b2b6"
+    },
+    {
+      "path": "Button_violet_disabled.png",
+      "sha256": "faa246402ddcfecec5e537280d33f36f0b1b080baea8be3c8ec79e15705d8a01"
+    },
+    {
+      "path": "Button_violet_disabled.png.meta",
+      "sha256": "93eea53fb90b2f17129897eb2e2ca1c5dd221f9ac78a1646a92d98baa6448c7b"
+    },
+    {
+      "path": "Button_violet_normal.png",
+      "sha256": "6d03b6b03e59edda816b46ef440515096a7f5d0c419017dbc4009d589830a971"
+    },
+    {
+      "path": "Button_violet_normal.png.meta",
+      "sha256": "365312fe6dab4acb5ebf4633f98808a4e277a2aeb8388fad7a3d9ca7b98f0d4e"
+    },
+    {
+      "path": "Button_violet_pressed.png",
+      "sha256": "0f991b149755874879432f4c7030cf8adf2a6deda404441cca60f47644fffefb"
+    },
+    {
+      "path": "Button_violet_pressed.png.meta",
+      "sha256": "f7c7ac24191503ddfbe8376cd9252363e1fbfe261ac926e609fbe4452d5a9536"
+    },
+    {
+      "path": "Button_violet_selected.png",
+      "sha256": "5667218b0635e4368b00116d768a0ff64300b23118d92dbf3395d0bafb843987"
+    },
+    {
+      "path": "Button_violet_selected.png.meta",
+      "sha256": "cf61b299cfcfd264df02d656d8b4585836174e90548c53e5e8bd7245ec3fecf9"
+    },
+    {
+      "path": "Cell_Empty.png",
+      "sha256": "93e4ca408fd068840df5e4216d790c3e5088b47275edda14fecafbb8ecc64ab7"
+    },
+    {
+      "path": "Cell_Empty.png.meta",
+      "sha256": "5ddc39856618868f52b0d295abdb357299ed479cc36b1907cfe35ecb0ddf5b94"
+    },
+    {
+      "path": "Cell_Invalid.png",
+      "sha256": "79c37a5eac80524aa50a49045b28d1a0cbf903c98aac8026392240dc6b15edae"
+    },
+    {
+      "path": "Cell_Invalid.png.meta",
+      "sha256": "b64eaccf6121ab6cde8a2d53d782269ced7d16d5f1eb79661758a26e841a0491"
+    },
+    {
+      "path": "Cell_Valid.png",
+      "sha256": "8d83857fd3ba41f6a440aa4e3dadd13e3b0514aa23ebd71c9a7e153b511b3cde"
+    },
+    {
+      "path": "Cell_Valid.png.meta",
+      "sha256": "19b265ab6209f2005831be397f79a68356d2f08dc02ff1eb5f818a3dfd458ed8"
+    },
+    {
+      "path": "CTA_Journey_Decoration.png",
+      "sha256": "39b5278bf78fbc064bca6fb9eabdae287db015bc905b4e2c933e4ba941be52a3"
+    },
+    {
+      "path": "CTA_Journey_Decoration.png.meta",
+      "sha256": "01f843e1aa09f56aba0a776c3437ab81321c1782f9095a43ed89d662db2317df"
+    },
+    {
+      "path": "CTA_Journey_disabled.png",
+      "sha256": "4adb794440016dc19c372071fdd33ab8498560c7969770fbf9283ccc83055dc2"
+    },
+    {
+      "path": "CTA_Journey_disabled.png.meta",
+      "sha256": "c7e998ae182b8b61d7210bbfbc0b453210f172d58b323f55aa5ff40d216e6d9c"
+    },
+    {
+      "path": "CTA_Journey_pressed.png",
+      "sha256": "e855742cfddd5afa5dbbfd509295da0d93554d27badff0a3be3a9710729fa5e9"
+    },
+    {
+      "path": "CTA_Journey_pressed.png.meta",
+      "sha256": "45dd1bb60ccf2315be2b2ff344d37c34a0a9933e07e10c084269c83aea1cb799"
+    },
+    {
+      "path": "CTA_Journey_selected.png",
+      "sha256": "0722e829b7d815430b09409c2054d19e7a044bee908401cf6daa6b76f082dc32"
+    },
+    {
+      "path": "CTA_Journey_selected.png.meta",
+      "sha256": "a0f7de4a4ab5f668398190e620fc80fccdfc77081929332c4b4957eca95d1b98"
+    },
+    {
+      "path": "CTA_Play_Decoration.png",
+      "sha256": "2ef621a0cbaeee7dcad173facbe5f390f3cbbd98b6b49cd8b4f8130a002f238d"
+    },
+    {
+      "path": "CTA_Play_Decoration.png.meta",
+      "sha256": "5d5c2210e2b24748cc1d3dfce56109c7689045b4244da05f37fb020c9f9a0e60"
+    },
+    {
+      "path": "CTA_Play_disabled.png",
+      "sha256": "7a3cb2794cd7b7b2cba7c9228687a1fa7e1abb9d77474f50fc4e79e53f552d8d"
+    },
+    {
+      "path": "CTA_Play_disabled.png.meta",
+      "sha256": "ec028b12c47a5c55c5980c767600d8d3f2ef3054a5a288095dddf0eb21d7d4e7"
+    },
+    {
+      "path": "CTA_Play_pressed.png",
+      "sha256": "6af14a4d748226bfa4696dfe1db1573fe854274bfb5b8f55a2b671f05e8629ea"
+    },
+    {
+      "path": "CTA_Play_pressed.png.meta",
+      "sha256": "98cbe033ee851472c0ade3a1a9e6844aeb86e61c5abc168170c191bbe51439cc"
+    },
+    {
+      "path": "CTA_Play_selected.png",
+      "sha256": "3ba1bd2f91a35824099c3e0a7a8a08d75bbebd92a3f9b795caa387e916885f5b"
+    },
+    {
+      "path": "CTA_Play_selected.png.meta",
+      "sha256": "9a899890b97e578b48ff80c1d012d876ea59e173ec3dbc0c62cc8f38d1b50ea7"
+    },
+    {
+      "path": "Currency_coin_Blank.png",
+      "sha256": "6ca601c2e8e1f7c42cdae0629eebb07d4d61e07f6ad3e78c7461b0f5b490bf8c"
+    },
+    {
+      "path": "Currency_coin_Blank.png.meta",
+      "sha256": "44b0ade211a6038ad2601c0ee897345dc3eb58b93dfe6a783c464a3af47f2584"
+    },
+    {
+      "path": "Currency_energy_Blank.png",
+      "sha256": "f7a41e48bc34325e786beb8fc1b46ea561032f24569bb0cfa5c1ad027e6f03e8"
+    },
+    {
+      "path": "Currency_energy_Blank.png.meta",
+      "sha256": "e307ef7261e98dc69a2955f8de45ed8f7ef99fef8478c3c032a37af57aa1befd"
+    },
+    {
+      "path": "Currency_gem_Blank.png",
+      "sha256": "a8e84a861dcce9a33b42410b8209c4edf379ed13eedd5d17f092b4379be161ab"
+    },
+    {
+      "path": "Currency_gem_Blank.png.meta",
+      "sha256": "27270e1ef363dcd733425d6f40641206b6d77a7915f4cd1556b2d9d2ebdb85a5"
+    },
+    {
+      "path": "Editor.meta",
+      "sha256": "3d940a8b496eccd2f0cdaed5f3cf4b6466977f3190d8d81a5f1af3ca7c2e03d9"
+    },
+    {
+      "path": "Icon_back.png",
+      "sha256": "3cc56a3ff23cbbdb1e2eabce6bcd6477ea41f2a240da14c967d33647fceab981"
+    },
+    {
+      "path": "Icon_back.png.meta",
+      "sha256": "0c93cd89f4e670d1e8e2d89c11cf9f1bf7cef54012cf674d90fcb772212a3df3"
+    },
+    {
+      "path": "Icon_book.png",
+      "sha256": "6a0b381e973bda00924bec66d60e50dd3424d7486bade5d65e293a40d3a9b1f1"
+    },
+    {
+      "path": "Icon_book.png.meta",
+      "sha256": "b8332f7f5faa8da4d88794b9034423efe61f03862261b386e1ccda470669bb3d"
+    },
+    {
+      "path": "Icon_check.png",
+      "sha256": "e83591bdc91b6fd664fa8208e21b19d4fb535e06af03825020f8db170574f6ae"
+    },
+    {
+      "path": "Icon_check.png.meta",
+      "sha256": "3795e5e6a2d92028343f61ceee4e396a63e9ac3bd6555aa4444e3639e119385d"
+    },
+    {
+      "path": "Icon_close.png",
+      "sha256": "8efc464c32e5ff81da26153165e06630effc11fcb4ec292a8fa5acb8045e4d1d"
+    },
+    {
+      "path": "Icon_close.png.meta",
+      "sha256": "72ae02e4e0b82b1673f79a131a2f789f00a8d01d15d88edccfdcc077da81802c"
+    },
+    {
+      "path": "Icon_coin.png",
+      "sha256": "0493f45fcd40ec014d4890f8a2b65ddb38a26270da6fcd40e8318bd251771cd6"
+    },
+    {
+      "path": "Icon_coin.png.meta",
+      "sha256": "3acc1762f10c7ddc74a81e4230a4827efb0ca798e017da0a2585bcc754050db9"
+    },
+    {
+      "path": "Icon_energy.png",
+      "sha256": "a8a4374921b85342433dd5592fe668336d2728cfe66bf6860729f4877b7bf273"
+    },
+    {
+      "path": "Icon_energy.png.meta",
+      "sha256": "613f3627a11c4ea34647b5522bcb41fd1d27c67627bc6fdc91d7eed0a8c50aa6"
+    },
+    {
+      "path": "Icon_events.png",
+      "sha256": "f742a75a57f5c00404b6aeaf55fe2881b54cdf9bec073a104bbd96c8d9085280"
+    },
+    {
+      "path": "Icon_events.png.meta",
+      "sha256": "d3947ff1e0ccb0bce6b859c97d1496d15b3eb24f3a8470d7b2eedb346329aef8"
+    },
+    {
+      "path": "Icon_gem.png",
+      "sha256": "a62cb9dbb89e3b3ef7994dc4cb2ee3071b34dd6617f4225a13f9f2f21ce43f80"
+    },
+    {
+      "path": "Icon_gem.png.meta",
+      "sha256": "4ad0a0d54466bd1357b4bddc8870518424ba1ae6775f55fc3e89bd18c69b709b"
+    },
+    {
+      "path": "Icon_lock.png",
+      "sha256": "585d5bb0f0caa866389df849db77476adc43cb9e6177e76e80cc251cac74753d"
+    },
+    {
+      "path": "Icon_lock.png.meta",
+      "sha256": "617b01079c34d841b21704ff9578dad1f0e5bb299d47bd9b7f3ac4078a4cbfc0"
+    },
+    {
+      "path": "Icon_music.png",
+      "sha256": "85a202d42b41f6c088ff95f97c97d7b7fdc92f153f350b20e7cf812663528854"
+    },
+    {
+      "path": "Icon_music.png.meta",
+      "sha256": "2b62d543fcdf112f468025d1152f39795a2c4b7761921eaac8efd280fd541380"
+    },
+    {
+      "path": "Icon_next.png",
+      "sha256": "6b79a49915ecb340a1dd52bc374da5811f1e376d24328a7aefd571b82c6a22a4"
+    },
+    {
+      "path": "Icon_next.png.meta",
+      "sha256": "48843e9141aecf8ae2fd28909fb94adcfeb7e781558ceddc558a0936b768cd45"
+    },
+    {
+      "path": "Icon_pause.png",
+      "sha256": "8df2f1e9a0c9e36d665bfa1684c0b5ef9ce2ed3eb6a3580aabed0c8a97d266fd"
+    },
+    {
+      "path": "Icon_pause.png.meta",
+      "sha256": "b18f6eb298bcaf58ab0bbd7e53a5426c1bb20fa5cb2158dd4b59c6b126167b2d"
+    },
+    {
+      "path": "Icon_play.png",
+      "sha256": "e201e916f6928908b7d5f0c74732080884f756cdd0303917191afd272000d7ac"
+    },
+    {
+      "path": "Icon_play.png.meta",
+      "sha256": "fe26d8ac4d1d8ac3d3d0b04c29c68561c36c55f487a3146184b2316b9de80e2e"
+    },
+    {
+      "path": "Icon_plus.png",
+      "sha256": "b2360b5a786c4345448fdfa1971f6b3c4579d6b00395df9fc348211a4c76db20"
+    },
+    {
+      "path": "Icon_plus.png.meta",
+      "sha256": "31f3a205c48f2e44a7fdd5b262737098eda53633a2141a11733a3f334ece2cd4"
+    },
+    {
+      "path": "Icon_settings.png",
+      "sha256": "8885633cdd62b8c2cd784567ce0e2840ee8877ee9ad95242853ddfe9a018a432"
+    },
+    {
+      "path": "Icon_settings.png.meta",
+      "sha256": "e5c21a69f78c3540627175b167ec1b847e3ccc74b4c06b63fa2bf3a5a525ae1e"
+    },
+    {
+      "path": "Icon_shop.png",
+      "sha256": "ae091adcf959e4444c935ff56949e912ccfb44f67930845f07f55c5f6e374523"
+    },
+    {
+      "path": "Icon_shop.png.meta",
+      "sha256": "344074285ce30952ef443e63a39712d0196a1cd5f5cce2a12be89dcd449e7156"
+    },
+    {
+      "path": "Icon_skins.png",
+      "sha256": "0f104e82bc9a1a6db1fce0a7fb96c550c92a65155516c3bf87a028628493bc29"
+    },
+    {
+      "path": "Icon_skins.png.meta",
+      "sha256": "58caf44e9fe960374e733db75f55d0585eeb063b9a616615c1536c3cbbc807f4"
+    },
+    {
+      "path": "Icon_sound.png",
+      "sha256": "e2f7aa2539f6e2f19c69da83ae4f8a196c9c0bcfd9d9d57a094e272afb518db6"
+    },
+    {
+      "path": "Icon_sound.png.meta",
+      "sha256": "35a59dbd744e3ef274a6a255830f2c424e5f5a53419293eea18ee1d8cf0bfbc6"
+    },
+    {
+      "path": "Icon_star.png",
+      "sha256": "997fc2ce37a11cbc7197a6f46ec27236a6662f685658b5e6605a26a77a9bc5a8"
+    },
+    {
+      "path": "Icon_star.png.meta",
+      "sha256": "c84548d6222722970af65dc0b93ff965ed3a4b6ab2fff5d9a38c6c7f588f0a1c"
+    },
+    {
+      "path": "Level_completed.png",
+      "sha256": "89dd37f6572c90123a272b1305314160066f5f67579a59f21527cb11a5229f69"
+    },
+    {
+      "path": "Level_completed.png.meta",
+      "sha256": "480cabec17eb3f0cbf82ad02442f345761150e5ebf26017c1f085934c9a85ba8"
+    },
+    {
+      "path": "Level_current.png",
+      "sha256": "0475a194c2d7fd131eb52b181779f1c096d869f92e7731197799db507789730b"
+    },
+    {
+      "path": "Level_current.png.meta",
+      "sha256": "8716350e6dab4cc719007cedefe93f144f6ebc89957ca41108684612b49e6488"
+    },
+    {
+      "path": "Level_locked.png",
+      "sha256": "a7a3696857544e0dbed716fd3e529afc2502cd7a8f3f39ca29e2e6d5b20d5e29"
+    },
+    {
+      "path": "Level_locked.png.meta",
+      "sha256": "8d58aef4d544c80ca93df7f55c8a3115d94a7f8253d736feea2eb6c638985fa6"
+    },
+    {
+      "path": "Level_unlocked.png",
+      "sha256": "f005f791a1d9b302410cb2c846e13e9637ef038da3a2d076fb08263e050c14ed"
+    },
+    {
+      "path": "Level_unlocked.png.meta",
+      "sha256": "6a0704f623e827427710bf2ac3571aa1ccdfb8280a42628c432ec51df649fda4"
+    },
+    {
+      "path": "Logo_MagicalWorlds.png",
+      "sha256": "dbfd14dd3ec0b093cf5d01bb3789561477ab475306d322368ddb542d1175f542"
+    },
+    {
+      "path": "Logo_MagicalWorlds.png.meta",
+      "sha256": "120671d0b449893a501beb6249823f7eeb128327eaf95f6bb9b2bb3162e6cf88"
+    },
+    {
+      "path": "Nav_Events_IconLabel.png",
+      "sha256": "05bf133bed1dc3b137b785600dd1513ea5c8ddfe54795710c45f68999b260fc1"
+    },
+    {
+      "path": "Nav_Events_IconLabel.png.meta",
+      "sha256": "1a4c062a2b75d7c08c62de7075a57b0ae08cbeb855d55d1d0262b3a9c2452833"
+    },
+    {
+      "path": "Nav_Settings_IconLabel.png",
+      "sha256": "be2c73519bd60212ec7512e6c90d5387087badf57cbff426d00492621d4944a4"
+    },
+    {
+      "path": "Nav_Settings_IconLabel.png.meta",
+      "sha256": "5c8918612c8175f6666274f157b81e6edeed5b0c1dc4560095cd6583bffb41da"
+    },
+    {
+      "path": "Nav_Shop_IconLabel.png",
+      "sha256": "02a2a5d3d60f8c46d5aa5a86a529d25ad39c1ecd495e1bcaa1bfe674d9f1f1f0"
+    },
+    {
+      "path": "Nav_Shop_IconLabel.png.meta",
+      "sha256": "dc35e9be9a8ae67632c28ac9275a857cf6a768f2b86742fcd98f4f4c57be54a6"
+    },
+    {
+      "path": "Nav_Skins_IconLabel.png",
+      "sha256": "87aaf32230c3df7bfe9f6e74a02253b38365acba4ba1c35ea992306b9cdaf046"
+    },
+    {
+      "path": "Nav_Skins_IconLabel.png.meta",
+      "sha256": "d4545c0127a56bd86b8aededf8397e4419a818c360bbc211d4979fbe987e101a"
+    },
+    {
+      "path": "Nav_Surface_disabled.png",
+      "sha256": "cbfc6b5c8e997eeff7b1c2902c491088049a0324c9fcf580a0789e2c25c7313f"
+    },
+    {
+      "path": "Nav_Surface_disabled.png.meta",
+      "sha256": "e518dc8f45b8b2c2050f20386f62372f00d0b8dd1d4c2c96554ec625e1005dc1"
+    },
+    {
+      "path": "Nav_Surface_normal.png",
+      "sha256": "f43364c9721f68aa006978808fa184a8a666bcef5da7df359c09e29105d2b548"
+    },
+    {
+      "path": "Nav_Surface_normal.png.meta",
+      "sha256": "bf80d6a2237bfddaa947234692c4b3be82afd4de99fce1ade1fc03e0f7affbf1"
+    },
+    {
+      "path": "Nav_Surface_pressed.png",
+      "sha256": "81fdb896b98f33c878d90a9fa3d242cefa0789f76a6a26168437227aed5253d9"
+    },
+    {
+      "path": "Nav_Surface_pressed.png.meta",
+      "sha256": "f7da0ddbd0b24b5dcf7b497ac66fe35258fc093cf87db84ba00efad3c83f4582"
+    },
+    {
+      "path": "Nav_Surface_selected.png",
+      "sha256": "e15ff132b873a07e30bfea56a2e7ca5ce9e9867358fe4af68dbe84d9654a5315"
+    },
+    {
+      "path": "Nav_Surface_selected.png.meta",
+      "sha256": "f38a485d9a480cc8ad898c0b736cdcef636a0176662a6901d0f3e3187073a0b1"
+    },
+    {
+      "path": "Ornament_Crown.png",
+      "sha256": "efbbe68da94f08257c37ef7fbc76e61bda063e8a31c3aa9e2cf48d707d8be206"
+    },
+    {
+      "path": "Ornament_Crown.png.meta",
+      "sha256": "6e820ff500cf177511d87a81f3ad29c63531c5c95d198b79072fda0cb48b70d4"
+    },
+    {
+      "path": "Ornament_Flower.png",
+      "sha256": "8c87ef0a54a3a8699ef827bfff888734207ffa22f9146e882a575e2c44c3fbf2"
+    },
+    {
+      "path": "Ornament_Flower.png.meta",
+      "sha256": "390c8f5dccd5d0f1dae31c37c1ce6e09d8739864e505f00f440df5c7dfd78948"
+    },
+    {
+      "path": "Ornament_Leaf.png",
+      "sha256": "872b3cf7a5498c28054c75fc30fa4a0dc7b2776a90617ce30030f7a89cdd5250"
+    },
+    {
+      "path": "Ornament_Leaf.png.meta",
+      "sha256": "264e2d76cf8ef8c76671c4b48bc46de04ea4d585f7c3143d54c0bf39425368a1"
+    },
+    {
+      "path": "Panel_Board.png",
+      "sha256": "10275b5401ec24bbea94f0801ac1758446b3218119ac15f28270b2b50bcc5e87"
+    },
+    {
+      "path": "Panel_Board.png.meta",
+      "sha256": "cea308607af6c5b678da701527d44966715ecc35e43f7a1f9664e6b9bf50b71a"
+    },
+    {
+      "path": "Panel_Card.png",
+      "sha256": "1945d5d65b5b16cf33504c5dc1b787f14bd38ff967d9dd0bb68d70b2008f0f3e"
+    },
+    {
+      "path": "Panel_Card.png.meta",
+      "sha256": "a72fb4340df96c6d04bf814cbdabeb442004b519c9d4b076a4ace5800d7f3c93"
+    },
+    {
+      "path": "Panel_HUD.png",
+      "sha256": "3fcf887b23edb14498c6eb9a371308832dc91aa13a00cd42ac9b9da4a141eea4"
+    },
+    {
+      "path": "Panel_HUD.png.meta",
+      "sha256": "d774285471299991117894f8b211a342ddf1be8544828d6790bd71560f31837a"
+    },
+    {
+      "path": "Panel_Modal.png",
+      "sha256": "ff41a4df1268c58722bc0bb85523ae307c221e0ab29d8133752fd7eb4a7fdd2c"
+    },
+    {
+      "path": "Panel_Modal.png.meta",
+      "sha256": "9d210092ac9dfa11deebe5a0c198a6f3ec15d1fda3df5ea862f5762e93c2b14b"
+    },
+    {
+      "path": "Panel_Tray.png",
+      "sha256": "79f4f2dd6479617b7ff1df256588a762f22b864b6b05b036b51a8bed88d320fd"
+    },
+    {
+      "path": "Panel_Tray.png.meta",
+      "sha256": "46a5ecb1a1b5cc8b695e9218c740721c4acf56a75f7ed9007fb2c6de55577a70"
+    },
+    {
+      "path": "Progress_Fill.png",
+      "sha256": "f0bce04a9dad4b61451183ece7af40f80e5a280794d9277cb84ca43730d4f22a"
+    },
+    {
+      "path": "Progress_Fill.png.meta",
+      "sha256": "e411bc04f94d567b4de28a644c65701e4b1a99297e30b8db0bb21bccf0ecbb7e"
+    },
+    {
+      "path": "Progress_Track.png",
+      "sha256": "9b44791c0be322a4d1cc3af3f89bfd03dee9ee1d2e00fbd3404a554c80687bb3"
+    },
+    {
+      "path": "Progress_Track.png.meta",
+      "sha256": "90c82c7e712c2ff9ad01ed926702858f232a2ea1d551c5ef2b4c0fd4dcba22d5"
+    },
+    {
+      "path": "Runtime.meta",
+      "sha256": "6a5a9ccc8b8236f6c9c46d7ef0d537c899bc5312d54b7c3ca630c3271ff9dde0"
+    },
+    {
+      "path": "Star_Empty.png",
+      "sha256": "b7bb1e7ab63af945c5c067fdd52c826459396bb243d031cbcb841e975563f91b"
+    },
+    {
+      "path": "Star_Empty.png.meta",
+      "sha256": "d6f63f58085d02ca01d0b3efd613aa48b4865625a425d2f1b75acdd978a62af0"
+    },
+    {
+      "path": "Tile_Cyan.png",
+      "sha256": "c748526d40bad09b7c40c0b868103d5f1a7d408953197dd1761613d2e09faa83"
+    },
+    {
+      "path": "Tile_Cyan.png.meta",
+      "sha256": "079f63cd0ee93e292d0accd0750e643e79cd0f637e8e96f5f289845bd6e6fa25"
+    },
+    {
+      "path": "Tile_Gold.png",
+      "sha256": "27f58ba8e1dbe91018ee77238a48183a3ebacb7e8efe15ac01a92ed39043459a"
+    },
+    {
+      "path": "Tile_Gold.png.meta",
+      "sha256": "5d5b80b556df34c2671be2bfb1fbbc60500947085a67832de54eeec388e0307e"
+    },
+    {
+      "path": "Tile_Lavender.png",
+      "sha256": "3a54719f20672cf565b73525dd7b622bd24c6a3966570b166e7f65903fadf824"
+    },
+    {
+      "path": "Tile_Lavender.png.meta",
+      "sha256": "e2b6f27b1abaf7fee251d3fcd851fce8b4c985aae301d35972d80c3821b9a034"
+    },
+    {
+      "path": "Tile_Mint.png",
+      "sha256": "8a161f8f64971d42cf39217c57bd852790b33b9d7d96be0dbf59efab29376f76"
+    },
+    {
+      "path": "Tile_Mint.png.meta",
+      "sha256": "b71d9684fcb34dbc9bf389d2794400fd373532ad3a53c89cec5df9c0174e2f13"
+    },
+    {
+      "path": "Tile_Orange.png",
+      "sha256": "bf3627cbaa4b35003b629377ffe9f4056e58fb1d78b4a5461e6f21214b7ea04c"
+    },
+    {
+      "path": "Tile_Orange.png.meta",
+      "sha256": "ae880013bee8031d3ec48b263ea3cf3dd1da9ec7e62506b6c0f1761ca633b2d9"
+    },
+    {
+      "path": "Tile_Pink.png",
+      "sha256": "c466ecf5e57baddd3a55452e6ef7f2825c85beb1f069ca05e84fab7f0178db1a"
+    },
+    {
+      "path": "Tile_Pink.png.meta",
+      "sha256": "f80768ec286de41f8449f72a036d40f3341e2bd8f425f4db19f338c1768051c7"
+    },
+    {
+      "path": "Tile_Red.png",
+      "sha256": "13715e098c6df7028467d1e9a256519c3c7dab8048fad1f1c83b470acf42e95a"
+    },
+    {
+      "path": "Tile_Red.png.meta",
+      "sha256": "c045c9af65346f45bcf1593b4462f179794defd3b6d36b2d0074e64e995dc09f"
+    },
+    {
+      "path": "Toggle_Off.png",
+      "sha256": "c90cd396bc7d2be64aefafb36dc8cb917d3f032a62feedfc2ac79ef509ad3d93"
+    },
+    {
+      "path": "Toggle_Off.png.meta",
+      "sha256": "69b38ad27a755999821a0434d52c318f9cf13d050b8a540d1c6bfc2ac3e81439"
+    },
+    {
+      "path": "Toggle_On.png",
+      "sha256": "a557940ac26f5c13db959b543377849be262534c12fb8d27e95d7c27898816ab"
+    },
+    {
+      "path": "Toggle_On.png.meta",
+      "sha256": "a5bb0d8c193e04cc2f61a6ede3b0682d4edf8c34203eb6938465de56e89ebba4"
+    },
+    {
+      "path": "VectorUI_Manifest.json",
+      "sha256": "f22549a4b7ef3f2e81cb8c19e82b29b41f3d0dce968f1d1a592a7cc7a54d9cdc"
+    },
+    {
+      "path": "Editor\\MagicalWorldsVectorUIAuthoring.cs",
+      "sha256": "19e36d0a5c4f2830511366d104908f011950d7b87c5039c94a6f3f0de6fe44e0"
+    },
+    {
+      "path": "Editor\\MagicalWorldsVectorUIAuthoring.cs.meta",
+      "sha256": "034d51a2725c972a2ca7404b0e6b1bdd23604150ee3a7b1235346d9c9929b05c"
+    },
+    {
+      "path": "Runtime\\MagicalWorldsVectorLevelSkin.cs",
+      "sha256": "e6c44aa4eb779d97f93717363bc92c0720513dba0517e213082aa6cb44b55ba0"
+    },
+    {
+      "path": "Runtime\\MagicalWorldsVectorLevelSkin.cs.meta",
+      "sha256": "0513f809631289a02acf21d5211558cb00bb8fc020be6bcf63ffacae9855b89b"
+    }
+  ]
+}

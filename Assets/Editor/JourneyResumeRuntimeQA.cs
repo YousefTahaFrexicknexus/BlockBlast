@@ -41,6 +41,7 @@ public static class JourneyResumeRuntimeQA
         PlayerPrefs.Save();
 
         EditorPrefs.SetBool(Pending, true);
+        JourneyPlaytestTelemetry.AutomatedTest = true;
         launched = false;
         started = EditorApplication.timeSinceStartup;
         EditorApplication.isPlaying = true;
@@ -225,6 +226,7 @@ public static class JourneyResumeRuntimeQA
         PlayerPrefs.Save();
 
         EditorPrefs.SetBool(Pending, false);
+        JourneyPlaytestTelemetry.AutomatedTest = false;
         launched = false;
         if (stopPlay && EditorApplication.isPlaying) EditorApplication.isPlaying = false;
     }

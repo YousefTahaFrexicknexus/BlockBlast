@@ -24,7 +24,8 @@ namespace MagicalWorlds.Journey
                 return highest;
             }
         }
-        public static int SelectedLevel => Mathf.Max(1, PlayerPrefs.GetInt(SelectedKey, 1));
+        public static int SelectedLevel => JourneyPlaytestContext.IsPreview ? JourneyPlaytestContext.PreviewLevel :
+            Mathf.Max(1, PlayerPrefs.GetInt(SelectedKey, 1));
 
         public static bool Select(int level, int levelCount)
         {

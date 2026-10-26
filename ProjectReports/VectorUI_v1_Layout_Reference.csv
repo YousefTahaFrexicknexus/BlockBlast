@@ -1,0 +1,40 @@
+Screen,Object,TopLeftX,TopLeftY,Width,Height,UnityCenterX,UnityCenterY,SpriteLayers,Notes
+Main Menu,Settings,13,25,123,117,-465.5,876.5,Nav_Surface_normal + Icon_settings,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Coins,138,21,351,120,-226.5,879.0,Currency_coin_Blank,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Gems,492,21,284,120,94.0,879.0,Currency_gem_Blank,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Energy,770,21,283,120,371.5,879.0,Currency_energy_Blank,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Brand,177,124,708,475,-9.0,598.5,Logo_MagicalWorlds,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Play,173,1164,726,291,-4.0,-349.5,CTA_Play_Decoration,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Journey,197,1430,684,189,-1.0,-564.5,CTA_Journey_Decoration,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Shop,82,1640,213,211,-351.5,-785.5,Nav_Surface_normal + Nav_Shop_IconLabel,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Skins,323,1640,214,211,-110.0,-785.5,Nav_Surface_normal + Nav_Skins_IconLabel,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,Events,539,1631,226,221,112.0,-781.5,Nav_Surface_normal + Nav_Events_IconLabel,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Main Menu,SettingsTab,774,1640,228,211,348.0,-785.5,Nav_Surface_normal + Nav_Settings_IconLabel,Approved reference envelope; preserve safe-area parent. Vector artwork may have transparent padding.
+Journey HUD,Pause,894,100,112,110,410.0,805.0,Button_blue_normal + Icon_pause,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Score,72,244,455,176,-240.5,628.0,Panel_HUD,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Moves/Best,553,244,455,176,240.5,628.0,Panel_HUD,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Board,72,568,936,936,0.0,-76.0,Panel_Board,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Tray1,72,1590,294,220,-321.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Tray2,393,1590,294,220,0.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey HUD,Tray3,714,1590,294,220,321.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Pause,894,100,112,110,410.0,805.0,Button_blue_normal + Icon_pause,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Score,72,244,455,176,-240.5,628.0,Panel_HUD,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Moves/Best,553,244,455,176,240.5,628.0,Panel_HUD,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Board,72,568,936,936,0.0,-76.0,Panel_Board,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Tray1,72,1590,294,220,-321.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Tray2,393,1590,294,220,0.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Classic HUD,Tray3,714,1590,294,220,321.0,-740.0,Panel_Tray,Art concept coordinates; keep existing runtime board geometry until integration review.
+Journey Map,Node 1,217,490,196,206,-225.0,367.0,Level_<state>,Six positions reused each page; number is live text.
+Journey Map,Node 2,667,490,196,206,225.0,367.0,Level_<state>,Six positions reused each page; number is live text.
+Journey Map,Node 3,217,890,196,206,-225.0,-33.0,Level_<state>,Six positions reused each page; number is live text.
+Journey Map,Node 4,667,890,196,206,225.0,-33.0,Level_<state>,Six positions reused each page; number is live text.
+Journey Map,Node 5,217,1290,196,206,-225.0,-433.0,Level_<state>,Six positions reused each page; number is live text.
+Journey Map,Node 6,667,1290,196,206,225.0,-433.0,Level_<state>,Six positions reused each page; number is live text.
+Pause,Modal,100,382,880,1130,0.0,13.0,Panel_Modal + Ornament_Crown,Crown separate; overlay sample contains veil. Runtime text and callbacks remain mode-specific.
+Win,Modal,100,382,880,1130,0.0,13.0,Panel_Modal + Ornament_Crown,Crown separate; overlay sample contains veil. Runtime text and callbacks remain mode-specific.
+Lose,Modal,100,382,880,1130,0.0,13.0,Panel_Modal + Ornament_Crown,Crown separate; overlay sample contains veil. Runtime text and callbacks remain mode-specific.
+Shop,Frame,75,225,930,1480,0.0,-5.0,Panel_Modal,Preserve existing catalog bindings; size differs from old placeholder.
+Shop,Palette 1,135,645,810,177,0.0,226.5,Panel_Card,"Apply runtime swatch, price/name label and button state separately."
+Shop,Palette 2,135,850,810,177,0.0,21.5,Panel_Card,"Apply runtime swatch, price/name label and button state separately."
+Shop,Palette 3,135,1055,810,177,0.0,-183.5,Panel_Card,"Apply runtime swatch, price/name label and button state separately."
+Shop,Palette 4,135,1260,810,177,0.0,-388.5,Panel_Card,"Apply runtime swatch, price/name label and button state separately."

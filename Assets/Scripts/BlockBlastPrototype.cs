@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using BlockBlastClone;
 using UnityEngine;
@@ -76,6 +76,21 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
     private CanvasGroup gameOverAlpha;
     private Text finalText;
     private Font uiFont;
+    [SerializeField] private Sprite[] fidelityBlockSprites;
+    [SerializeField] private Sprite fidelityEmptySprite;
+    private void ApplyFidelityBlock(Image image, int index)
+    {
+        if (collectionBoardTint && index == 0) { image.sprite=roundedSprite; image.type=Image.Type.Sliced; return; }
+        if (classicBlockLook && index > 0)
+        { image.sprite=roundedSprite; image.type=Image.Type.Sliced; image.color=Colors[index]; return; }
+        Sprite sprite = index == 0 ? fidelityEmptySprite :
+            fidelityBlockSprites != null && index < fidelityBlockSprites.Length ? fidelityBlockSprites[index] : null;
+        if (sprite == null) return;
+        image.sprite = sprite;
+        image.type = Image.Type.Simple;
+        image.preserveAspect = true;
+        image.color = Color.white;
+    }
     private Sprite roundedSprite;
     private bool ownsRoundedSprite;
     private AudioSource audioSource;
@@ -154,6 +169,7 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
         {
             BuildUI();
         }
+        ApplyCollectionCosmetics();
         RefreshUI();
         scoreText.text = displayedScore.ToString("N0");
         if (journeySession == null) ShowInitialFlow(resumed);
@@ -252,6 +268,11 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
         {
             image.sprite = roundedSprite;
             image.type = Image.Type.Sliced;
+        }
+        if (name == "Piece Square" || name == "Dragged Square" || name == "Placement Pop")
+        {
+            for (int k = 1; k < Colors.Length; k++)
+                if (Colors[k] == color) { ApplyFidelityBlock(image, k); break; }
         }
         return rect;
     }
@@ -400,11 +421,14 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
 
     private void DrawBoard()
     {
+        Color emptyCellColor = MagicalWorlds.Journey.JourneyBoardPalette.EmptyCell;
         for (int r = 0; r < 8; r++)
         {
             for (int c = 0; c < 8; c++)
             {
-                cells[r, c].color = game.Board[r, c] == 0 ? Empty : Colors[game.Board[r, c]];
+                cells[r, c].color = game.Board[r, c] == 0 ?
+                    emptyCellColor : Colors[game.Board[r, c]];
+                ApplyFidelityBlock(cells[r, c], game.Board[r, c]);
                 preview[r, c].gameObject.SetActive(false);
             }
         }
@@ -413,7 +437,9 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
     private void DrawTray(int slot)
     {
         RectTransform tray = trays[slot];
-        tray.GetComponent<Image>().color = slot == selectedSlot ? Hex("#34519A") : Hex("#22336D");
+        tray.GetComponent<Image>().color = slot == selectedSlot ?
+            MagicalWorlds.Journey.JourneyBoardPalette.SelectedTray :
+            MagicalWorlds.Journey.JourneyBoardPalette.Tray;
         tray.localScale = Vector3.one;
         if (game.Hand[slot] == renderedPieces[slot])
         {
@@ -489,7 +515,7 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
         selectedSlot = -1;
         for (int i = 0; i < trays.Length; i++)
         {
-            trays[i].GetComponent<Image>().color = Hex("#22336D");
+            trays[i].GetComponent<Image>().color = MagicalWorlds.Journey.JourneyBoardPalette.Tray;
         }
         PlayClip(pickupClip, 0.5f);
         BlockPiece piece = game.Hand[slot];
@@ -557,7 +583,7 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
         foreach (Transform child in ghost)
         {
             Image image = child.GetComponent<Image>();
-            Color color = hoverNear && !hoverValid ? PreviewBad : Colors[piece.Color];
+            Color color = hoverNear && !hoverValid ? PreviewBad : !classicBlockLook && fidelityBlockSprites != null && fidelityBlockSprites.Length > piece.Color ? Color.white : Colors[piece.Color];
             color.a = hoverNear && !hoverValid ? .70f : .91f;
             image.color = color;
         }
@@ -872,7 +898,7 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
                 {
                     block.localScale = Vector3.one * scale;
                     Image img = block.GetComponent<Image>();
-                    Color color = Colors[colorIndex];
+                    Color color = !classicBlockLook && fidelityBlockSprites != null && fidelityBlockSprites.Length > colorIndex ? Color.white : Colors[colorIndex];
                     color.a = 1f - t;
                     img.color = color;
                 }
@@ -1184,3 +1210,4 @@ public sealed partial class BlockBlastPrototype : MonoBehaviour
         }
     }
 }
+

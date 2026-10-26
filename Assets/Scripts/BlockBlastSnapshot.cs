@@ -16,6 +16,7 @@ namespace BlockBlastClone
         public int misses;
         public int moves;
         public int handNumber;
+        public int randomDrawCount; // 0 for legacy snapshots before deterministic resume.
         public bool gameOver;
     }
 
@@ -41,6 +42,7 @@ namespace BlockBlastClone
                 misses = PlacementsWithoutClear,
                 moves = Moves,
                 handNumber = HandNumber,
+                randomDrawCount = randomDrawCount,
                 gameOver = GameOver
             };
 
@@ -87,7 +89,10 @@ namespace BlockBlastClone
                 snapshot.hand == null || snapshot.hand.Length != Hand.Length ||
                 snapshot.score < 0 || snapshot.combo < 0 || snapshot.misses < 0 ||
                 snapshot.moves < 0 || snapshot.handNumber < 1 || snapshot.combo > snapshot.moves ||
-                snapshot.misses > snapshot.moves || snapshot.moves < snapshot.handNumber - 1)
+                snapshot.misses > snapshot.moves || snapshot.moves < snapshot.handNumber - 1 ||
+                snapshot.randomDrawCount < 0 || snapshot.randomDrawCount > 200000 ||
+                (startingSeed.HasValue && snapshot.randomDrawCount > 0 &&
+                    snapshot.randomDrawCount < 6 * snapshot.handNumber))
             {
                 return false;
             }
@@ -236,7 +241,19 @@ namespace BlockBlastClone
             {
                 Hand[i] = restoredHand[i];
             }
-            Score = snapshot.score;
+            // Original puzzle generation is unchanged. For seeded Journey
+            // games, replay the same number of System.Random draws so future
+            // hands after resuming match an uninterrupted playthrough.
+            // Old snapshots have count 0 and retain legacy best-effort behavior.
+            if (startingSeed.HasValue && snapshot.randomDrawCount > 0)
+            {
+                random = new System.Random(startingSeed.Value);
+                for (int i = 0; i < snapshot.randomDrawCount; i++)
+                {
+                    random.Next();
+                }
+                randomDrawCount = snapshot.randomDrawCount;
+            }            Score = snapshot.score;
             Combo = snapshot.combo;
             PlacementsWithoutClear = snapshot.misses;
             Moves = snapshot.moves;

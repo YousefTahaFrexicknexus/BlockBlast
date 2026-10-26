@@ -50,11 +50,27 @@ namespace BlockBlastClone
         public int Moves { get; private set; }
         public int HandNumber { get; private set; }
 
-        private readonly System.Random random;
+        private System.Random random;
+        private readonly int? startingSeed;
+        private int randomDrawCount;
+
+        private int NextRandom(int maxExclusive)
+        {
+            randomDrawCount++;
+            return random.Next(maxExclusive);
+        }
+
+        private int NextRandom(int minInclusive, int maxExclusive)
+        {
+            randomDrawCount++;
+            return random.Next(minInclusive, maxExclusive);
+        }
+
         private readonly List<Vector2Int[]> shapes = new List<Vector2Int[]>();
 
         public BlockBlastModel(int? seed = null)
         {
+            startingSeed = seed;
             random = seed.HasValue ? new System.Random(seed.Value) : new System.Random();
             BuildShapes();
             Reset();
@@ -226,8 +242,8 @@ namespace BlockBlastClone
             HandNumber++;
             for (int i = 0; i < Hand.Length; i++)
             {
-                int shape = random.Next(shapes.Count);
-                Hand[i] = new BlockPiece(shapes[shape], random.Next(1, 8));
+                int shape = NextRandom(shapes.Count);
+                Hand[i] = new BlockPiece(shapes[shape], NextRandom(1, 8));
             }
 
             // A playable hand is preferred when at least one shape in the library fits.
@@ -244,7 +260,7 @@ namespace BlockBlastClone
                 }
                 if (fitting.Count > 0)
                 {
-                    Hand[random.Next(Hand.Length)] = new BlockPiece(shapes[fitting[random.Next(fitting.Count)]], random.Next(1, 8));
+                    Hand[NextRandom(Hand.Length)] = new BlockPiece(shapes[fitting[NextRandom(fitting.Count)]], NextRandom(1, 8));
                 }
             }
         }

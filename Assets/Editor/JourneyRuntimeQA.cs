@@ -70,9 +70,17 @@ public static class JourneyRuntimeQA
             EditorPrefs.SetString(Pending + ".attemptValue." + levelNumber, PlayerPrefs.GetString(key, ""));
             PlayerPrefs.DeleteKey(key);
         }
+        // Preserve the entire economy wallet: automated victories may earn
+        // coins, but smoke tests must not change real player balances/claims.
+        EditorPrefs.SetBool(Pending + ".walletExists", PlayerPrefs.HasKey(JourneyWallet.SaveKey));
+        EditorPrefs.SetString(Pending + ".walletValue",
+            PlayerPrefs.GetString(JourneyWallet.SaveKey, ""));
+        PlayerPrefs.DeleteKey(JourneyWallet.SaveKey);
+        PlayerPrefs.DeleteKey("MW.Journey.Stars.v1.1");
         PlayerPrefs.DeleteKey("MW.Journey.Stars.v1.2");
         PlayerPrefs.Save();
         EditorPrefs.SetBool(Pending, true);
+        JourneyPlaytestTelemetry.AutomatedTest = true;
         running = true;
         started = EditorApplication.timeSinceStartup;
         if (EditorApplication.isPlaying) EditorApplication.delayCall += OpenLevel;
@@ -98,6 +106,7 @@ public static class JourneyRuntimeQA
             EditorApplication.update -= WaitForRetry;
             Restore();
             EditorPrefs.SetBool(Pending, false);
+        JourneyPlaytestTelemetry.AutomatedTest = false;
             running = false;
         }
     }
@@ -106,17 +115,17 @@ public static class JourneyRuntimeQA
         JourneyMapController map = UnityEngine.Object.FindFirstObjectByType<JourneyMapController>();
         if (map == null) { Fail("JourneyMap has no controller"); return; }
         Application.runInBackground = true;
-        map.ShowPage(8);
+        map.ShowPage(map.TotalPages - 1);
         int lastVisible = 0;
         foreach (JourneyLevelNode n in map.GetComponentsInChildren<JourneyLevelNode>(true))
             if (n.gameObject.activeSelf) lastVisible++;
-        if (map.TotalPages != 9 || lastVisible != 2)
+        if (map.TotalPages != 5 || lastVisible != 10)
         {
-            Fail("Page nine should display only levels 49 and 50");
+            Fail("Page five should display levels 41 through 50");
             return;
         }
         map.ShowPage(0);
-        Debug.Log("[Journey Runtime QA] Paged map 1/9 and 9/9 navigation passed.");
+        Debug.Log("[Journey Runtime QA] Paged map 1/5 and 5/5 navigation passed.");
         JourneyLevelNode first = null;
         foreach (JourneyLevelNode node in map.GetComponentsInChildren<JourneyLevelNode>(true))
         {
@@ -192,6 +201,24 @@ public static class JourneyRuntimeQA
         GameObject overlay = (GameObject)property.GetValue(session);
         if (overlay == null || !overlay.activeSelf) return;
         EditorApplication.update -= WaitForResult;
+        int bestStars = JourneyProgress.Stars(1);
+        int expectedCoins = JourneyWallet.Config.CalculateNewCoins(1, 0, bestStars);
+        int shownCoins = Private<int>(session, "lastCoinsEarned");
+        int walletCoins = JourneyWallet.GetView().Coins;
+        if (shownCoins != expectedCoins ||
+            walletCoins != JourneyWallet.Config.startingCoins + expectedCoins ||
+            JourneyWallet.AwardJourneyWin(1, bestStars) != 0)
+        {
+            Fail("First-clear coins, saved balance or replay farming validation failed.");
+            return;
+        }
+        string resultCopy = Private<UnityEngine.UI.Text>(session, "resultDescription").text;
+        if (expectedCoins > 0 && !resultCopy.Contains("+" + expectedCoins.ToString("N0") + " COINS"))
+        {
+            Fail("Journey victory result is missing coin reward text.");
+            return;
+        }
+        Debug.Log("[Journey Runtime QA] Economy first clear, result copy and replay protection passed.");
         Private<UnityEngine.UI.Button>(session, "nextButton").onClick.Invoke();
         started = EditorApplication.timeSinceStartup;
         EditorApplication.update += WaitForLevelTwo;
@@ -271,7 +298,12 @@ public static class JourneyRuntimeQA
             if (EditorPrefs.GetBool(Pending + ".attemptExists." + levelNumber, false))
                 PlayerPrefs.SetString(key, EditorPrefs.GetString(Pending + ".attemptValue." + levelNumber, ""));
             else PlayerPrefs.DeleteKey(key);
-        }        PlayerPrefs.Save();
+        }
+        if (EditorPrefs.GetBool(Pending + ".walletExists", false))
+            PlayerPrefs.SetString(JourneyWallet.SaveKey, EditorPrefs.GetString(Pending + ".walletValue", ""));
+        else
+            PlayerPrefs.DeleteKey(JourneyWallet.SaveKey);
+        PlayerPrefs.Save();
     }
     private static void Fail(string reason)
     {

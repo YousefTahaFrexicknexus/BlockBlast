@@ -20,6 +20,23 @@ namespace MagicalWorlds.Journey
         [Min(0)] public int targetLines = 0;
         [Min(1)] public int randomSeed = 101;
 
+        [Header("Star Awards - Percentage of Move Budget Remaining")]
+        [Range(0f, 1f)] public float threeStarRemainingRatio = .5f;
+        [Range(0f, 1f)] public float twoStarRemainingRatio = .2f;
+
+        private void OnValidate()
+        {
+            threeStarRemainingRatio = Mathf.Clamp01(threeStarRemainingRatio);
+            twoStarRemainingRatio = Mathf.Clamp(twoStarRemainingRatio, 0f, threeStarRemainingRatio);
+        }
+        public int CalculateStars(int usedMoves)
+        {
+            int remaining = Mathf.Max(0, moveLimit - Mathf.Max(0, usedMoves));
+            float top = Mathf.Clamp01(threeStarRemainingRatio);
+            float middle = Mathf.Min(top, Mathf.Clamp01(twoStarRemainingRatio));
+            return remaining >= Mathf.CeilToInt(moveLimit * top) ? 3 :
+                remaining >= Mathf.CeilToInt(moveLimit * middle) ? 2 : 1;
+        }
         public bool IsComplete(int score, int clearedLines)
         {
             switch (goal)
